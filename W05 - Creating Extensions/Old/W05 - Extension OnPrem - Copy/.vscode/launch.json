@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "al",
+			"request": "launch",
+            "schemaUpdateMode": "Synchronize", //"Recreate",
+			"name": "Your server",
+			"server": "http://localhost",
+			"serverInstance": "BC140",
+			"port": 7069,
+			"authentication": "Windows",
+			"startupObjectId": 6188475,
+			"startupObjectType": "Page",
+			"breakOnError": true
+		}
+	]
+}

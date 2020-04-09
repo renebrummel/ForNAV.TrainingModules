@@ -1,0 +1,16 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "al",
+			"request": "launch",
+			"name": "Microsoft cloud sandbox",
+			"server": "",
+			"serverInstance": "",
+			"authentication": "AAD",
+			"startupObjectId": 6188475,
+			"startupObjectType": "Page",
+			"breakOnError": true
+		}
+	]
+}

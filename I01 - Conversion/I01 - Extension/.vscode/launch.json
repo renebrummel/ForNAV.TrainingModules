@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "schemaUpdateMode": "Synchronize", //"Recreate",
+            "name": "Your own server",
+            "server": "http://localhost",
+            "serverInstance": "ForNAVBC",
+            "port": 7069,
+            "authentication": "Windows",
+            "startupObjectId": 22
+        }
+    ]
+}

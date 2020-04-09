@@ -1,0 +1,19 @@
+Voor de consultants
+Getting started
+Editing reports
+Custom Report Layouts
+Templates
+Multilanguage
+JavaScript basics (dynamisch aanpassen van fonts en kleuren, tonen en verbergen van secties, etc)
+In- en export van layouts en rapporten
+Create a customer top 10 with all the fun layout stuff like tables with alternating styles, address fields, field lookups etc etc)
+
+Voor de developers
+Getting started 
+Editing reports
+DataSets
+Flowfields and totals
+Trans- and groupheaders/footers
+JavaScript Deep Dive.
+Verschil tussen cloud en on-prem
+ForNAV API
