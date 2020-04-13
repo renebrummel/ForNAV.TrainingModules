@@ -5,8 +5,8 @@
 - **Modules**
   - [Setup](/Modules/01%20Setup/Setup.Trainer.md)
   - [Edit your first report](/Modules/02%20Edit%20your%20first%20report/EditYourFirstReport.Trainer.md)
-  - [Designer deep diver](/Modules/03%20Designer%20deep%20dive/DesignerDeepDive.Trainer.md)
-  - [Custom Report Layouts]()
+  - [Designer deep dive](/Modules/03%20Designer%20deep%20dive/DesignerDeepDive.Trainer.md)
+  - [Custom Report Layouts](/modules/04%20Custom%20Report%20Layouts/CustomReportLayout.Trainer.md)
 - **Exercises**
   - [Setup](/Exercises/Setup.Exercise.md)
   - [Edit your first report](/Exercises/EditYourFirstReport.Exercise.md)
