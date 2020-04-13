@@ -7,7 +7,7 @@
 
 [Download](https://www.fornav.com/download/)
 [About ForNAV](https://www.fornav.com/)
-[Trainer Guide](/README.md)
+[Trainer Guide](/readme.md)
 
 <!-- background color -->
 
