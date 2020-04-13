@@ -10,3 +10,8 @@
   - [Setup](/Exercises/Setup.Exercise.md)
   - [Edit your first report](/Exercises/EditYourFirstReport.Exercise.md)
   - [Designer deep diver](/Exercises/DesignerDeepDive.Exercise.md)
+- **Trainers Guides**
+  - [Classroom No-Code](/Modules/Classroom%20NoCode.md)
+  - [Classroom Developer](/Modules/Classroom%20Developer.md)
+  - [Webinar No-Code](/Modules/Webinar%20NoCode.md)
+  - [Webinar Developer](/Modules/Webinar%20Developer.md)

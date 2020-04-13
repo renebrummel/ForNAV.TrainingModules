@@ -20,7 +20,7 @@ A further training method that was used in creating these modules is repetition.
 ## Modules
 There are many parts to the ForNAV training material. Some more advanced than others. When planning your days of training you should mind the level of the students. Do they have a technical background? Do they know NAV at all? Always check with your students to see of the level is suitable. If not, then switch to more or less advanced options.
 
-There are two ready made tracks, the [classroom training](/Powerpoint/Classroom.pptx) and the [webinar series](/Powerpoint/Webinar.pptx). The webinar series uses the same modules as the classroom training but they are condensed in a smaller number of sessions. The webinar series uses video and exercises to facilitate self study.
+There are two ready made tracks. The classroom training ([No Code](/Modules/Classroom%20NoCode.md) and [Developer](Modules/Classroom%20Developer.md)). And the webinar series ([No Code](Modules/Webinar%20NoCode.md) and [Developer](/Modules/Webinar%20Developer.md)). The webinar series uses the same modules as the classroom training but they are condensed in a smaller number of sessions. The webinar series uses video and exercises to facilitate self study.
 
 ## Prerequisites
 
