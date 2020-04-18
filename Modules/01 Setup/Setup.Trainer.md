@@ -26,9 +26,7 @@ Download and install the ForNAV designer from the ForNAV website.
 ## Execution
 Duration: -
 
-Setup your ForNAV environment using the instructions in the ForNAV Getting started guide.
-
-Use the ForNAV Guide for [Saas](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/) or [On Prem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/)
+[filename](../../Exercises/Setup.Exercise.md ':include')
 
 ## Reflection
 Duration: 10 min

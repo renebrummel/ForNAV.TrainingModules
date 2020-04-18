@@ -16,10 +16,10 @@
   <dd>After this module students can open a ForNAV report for editing and preview and save the changes.</dd>
 </dl>
 
-# Pre Training
+## Pre Training
 Watch the video [How to add fields from an extension to a ForNAV report](https://www.youtube.com/watch?v=CmZhj17JDWk)
 
-# Preparation
+## Preparation
 Duration:
 
 Run through the editing of ForNAV reports from the web client. Be sure to cover:
@@ -32,14 +32,12 @@ Run through the editing of ForNAV reports from the web client. Be sure to cover:
 * Saving the report
 * Running the finished report
 
-# Execution
+## Execution
 Duration:
 
-Add the amount field to the DocumentHeader section.
+[filename](../../Exercises/EditYourFirstReport.Exercise.md ':include')
 
-Use the ForNAV Guide for [Saas](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/EditYourFirstReport) or [OnPrem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/EditYourFirstReport)
-
-# Reflection
+## Reflection
 Duration:
 
 Look back on adding the field. What did the students experience?

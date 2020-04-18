@@ -16,22 +16,22 @@
   <dd></dd>
 </dl>
 
-# Pre Training
+## Pre Training
 Watch the video []()
 
-# Preparation
+## Preparation
 Duration:
 
 What are we going to do
 
-# Execution
+## Execution
 Duration:
 
 Students will do it
 
 Use the ForNAV Guide for [Saas]() or [OnPrem]()
 
-# Reflection
+## Reflection
 Duration:
 
 What did we just do, what are the results.

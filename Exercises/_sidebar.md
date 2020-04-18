@@ -5,4 +5,4 @@
 - **Exercises**
   - [Setup](/Exercises/Setup.Exercise.md)
   - [Edit your first report](/Exercises/EditYourFirstReport.Exercise.md)
-  - [Designer deep diver](/Exercises/DesignerDeepDive.Exercise.md)
+  - [Designer deep dive](/Exercises/DesignerDeepDive.Exercise.md)

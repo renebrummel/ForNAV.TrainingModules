@@ -1,4 +1,4 @@
-# Edit your first report Exercise
+### Edit your first report Exercise
 
 Add the amount field to the DocumentHeader section.
 

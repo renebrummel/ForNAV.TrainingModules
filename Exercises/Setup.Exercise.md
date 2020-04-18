@@ -1,4 +1,4 @@
-# Setup Exercise
+### Setup Exercise
 
 Setup your ForNAV environment using the instructions in the ForNAV Getting started guide.
 

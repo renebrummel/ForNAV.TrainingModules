@@ -1,4 +1,4 @@
-# Designer deep dive Exercise
+### Designer deep dive Exercise
 
 Add to the Sales Template:
 * Change the font, color and background color for the fields in the LinesHeader 

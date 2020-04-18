@@ -16,10 +16,10 @@
   <dd>After this module students will be able to add all types of controls and control the properties of those controls.</dd>
 </dl>
 
-# Pre Training
+## Pre Training
 Watch the video [ForNAV Basic Features](ToDo)
 
-# Preparation
+## Preparation
 Duration: 30 min
 
 Demo:
@@ -68,23 +68,12 @@ Field List
 * Add tables from Field List
 * Add Picture/Bar Code from Field List
 
-# Execution
+## Execution
 Duration: 30 min
 
-Add to the Sales Template:
-* Change the font, color and background color for the fields in the LinesHeader 
-* A label, with translation if needed
-* Add the Picture field from the Company Information as a picture control
-* Add the Header.BillToCustomerNo as a Bar Code of type QRCode
-* Add a Line Body section and in that body section add these fields as a table
-  * Description
-  * Description2
-* Make the Header.FieldGroups.Bill_toAddress control small and set the Can Grow property to true
-* Add an even style on the LinesTable in the LinesBody
+[filename](../../Exercises/DesignerDeepDive.Exercise.md ':include')
 
-Use the ForNAV Guide for [Saas](ToDo) or [OnPrem](ToDO)
-
-# Reflection
+## Reflection
 Duration: 15 min
 
 Go over each exercise and discuss what happened at every point.
