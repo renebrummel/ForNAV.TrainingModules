@@ -5,9 +5,11 @@
 # Reports ForNAV Trainer Guide
 > Helping you conduct ForNAV training
 
+Version 0.1
+
 [Download](https://www.fornav.com/download/)
 [About ForNAV](https://www.fornav.com/)
-[Trainer Guide](readme.md)
+[Trainer Guide](/README.md)
 
 <!-- background color -->
 
