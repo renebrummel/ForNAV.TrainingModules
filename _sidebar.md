@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 <!-- [![ForNAV](/_media/ForNAV_logo_2f_250.png)](https://www.fornav.com/) -->
 
-- [Home](readme.md)
+- [Home](README.md)
 - **Modules**
   - [Setup](Modules/01%20Setup/Setup.Trainer.md)
   - [Edit your first report](Modules/02%20Edit%20your%20first%20report/EditYourFirstReport.Trainer.md)
