@@ -27,9 +27,7 @@ What are we going to do
 ## Execution
 Duration:
 
-Students will do it
-
-Use the ForNAV Guide for [Saas]() or [OnPrem]()
+[filename](../../Exercises/xxxx.Exercise.md ':include')
 
 ## Reflection
 Duration:
