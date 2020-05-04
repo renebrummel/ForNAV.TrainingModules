@@ -1,16 +1,25 @@
 <!-- docs/_sidebar.md -->
 <!-- [![ForNAV](/_media/ForNAV_logo_2f_250.png)](https://www.fornav.com/) -->
 
-- [Home](readme.md)
+- [Home](README.md)
 - **Modules**
   - [Setup](Modules/01%20Setup/Setup.Trainer.md)
   - [Edit your first report](Modules/02%20Edit%20your%20first%20report/EditYourFirstReport.Trainer.md)
   - [Designer deep dive](Modules/03%20Designer%20deep%20dive/DesignerDeepDive.Trainer.md)
-  - [Custom Report Layouts](modules/04%20Custom%20Report%20Layouts/CustomReportLayout.Trainer.md)
+  - [Custom Report Layouts](Modules/04%20Custom%20Report%20Layouts/CustomReportLayout.Trainer.md)
+  - [Templates]()
+  - [Multilanguage](Modules/06%20Multilanguage/Multilanguage.Trainer.md)
+  - [Language Module](modules/07%20Language/Language.Trainer.md)
+  - [Dynamic change of fonts, colors, and show output]()
 - **Exercises**
   - [Setup](Exercises/Setup.Exercise.md)
   - [Edit your first report](Exercises/EditYourFirstReport.Exercise.md)
   - [Designer deep dive](/Exercises/DesignerDeepDive.Exercise.md)
+  - [Custom Report Layout](/Exercises/CustomReportLayout.Exercise.md)
+  - [Templates]()
+  - [Multilanguage](/Exercises/Multilanguage.Exercise.md)
+  - [Language Module](/Exercises/Language.Exercise.md)
+  - [Dynamic change of fonts, colors, and show output]()
 - **Trainers Guides**
   - [Classroom No-Code](Modules/Classroom%20NoCode.md)
   - [Classroom Developer](Modules/Classroom%20Developer.md)

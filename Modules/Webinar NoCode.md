@@ -1,13 +1,13 @@
 # Overview
 
-The ForNAV webinar series consists of a functional and an advanced developer track.
+The ForNAV webinar series consists of a No-Code functional and an advanced developer track.
 
 The No-Code track consists of 7 online sessions and covers these subjects
 
 * Session 1
   * Setup
   * Edit your first report
-  * ForNAV designer deep dive
+  * Designer deep dive
 * Session 2
   * Custom report layouts
   * Templates
@@ -23,6 +23,7 @@ The No-Code track consists of 7 online sessions and covers these subjects
   * Groupheaders and -footers
 * Session 6
   * Create new reports
+  * Add page extensions
 * Session 7
   * Recap and last questions
 
@@ -34,6 +35,10 @@ All training includes:
   * Videos
   * Exercises
   * How To guides
+
+
+Prerequisites
+* Have access to your own Business Central Sandbox, On Prem, or Docker installation (minimum BC14)
 
 ## Training outline
 
