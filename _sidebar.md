@@ -9,7 +9,7 @@
   - [Custom Report Layouts](Modules/04%20Custom%20Report%20Layouts/CustomReportLayout.Trainer.md)
   - [Templates](Modules/05%20Templates/Templates.Trainer.md)
   - [Multilanguage](Modules/06%20Multilanguage/Multilanguage.Trainer.md)
-  - [Language Module](modules/07%20Language/Language.Trainer.md)
+  - [Language Module](/Modules/07%20Language/Language.Trainer.md)
   - [Dynamic change of fonts, colors, and show output](Modules/08%20Dynamic%20Change%20Fonts/DynamicChangeFonts.Trainer.md)
   - [Records](/Modules/09%20Records/Records.Trainer.md)
   - [Transport totals](/Modules/10%20Transport/Transport.Trainer.md)
