@@ -6,6 +6,6 @@
 * Change the caption for the Quantity field on the sales quote to "Quota"
 * Change the caption for the DocumentDate field on the Sales Invoice to "Invoice Date"
 
-Use the ForNAV Guide for [Saas](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/EditYourFirstReport) or [OnPrem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/EditYourFirstReport)
+Use the ForNAV Guide for [Saas]() or [OnPrem]()
 
 <!-- ToDO -> edit links -->
