@@ -8,4 +8,6 @@
 * Do not change the height or width of the new label.
 * Set the label to Multiline = Yes, and Can Grow = Yes
 
-Use the ForNAV Guide for [Saas](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/EditYourFirstReport) or [OnPrem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/EditYourFirstReport)
+Use the ForNAV Guide for [Saas]() or [OnPrem]()
+
+<!-- ToDO -> edit links -->

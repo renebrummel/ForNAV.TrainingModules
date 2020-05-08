@@ -11,7 +11,7 @@
   <dt><b>Prerequisites</b></dt>
   <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
-  <dd>ForNAV Guide</dd>
+  <dd>ForNAV Guide<br>https://www.fornav.com/knowledge-base/translation/</dd>
   <dt><b>Objective</b></dt>
   <dd>After this module students can change specific terminology in ForNAV reports with the ForNAV Language extension.</dd>
 </dl>
@@ -28,6 +28,7 @@ Run through the ForNAV Language extension.
 * Open the ForNAV Language page and change the Page 1/1 to Leaf 1/1. Show adding various languages. Run the Invoice and Order Confirmation and show the result.
 * Change the Description to explanation for the Invoice
 * Change No to Number for all reports based on Sales Line (Quote, Order)
+* Change No to Enumerator for invoice reports. Explain Soft Hyphen "Enume~rator"
 
 ## Execution
 Duration:
