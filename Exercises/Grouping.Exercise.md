@@ -1,4 +1,4 @@
-### Exercise
+### Grouping Exercise
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 

@@ -1,4 +1,4 @@
-### Exercise
+### Create new reports Exercise
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 

@@ -11,6 +11,11 @@
   - [Multilanguage](Modules/06%20Multilanguage/Multilanguage.Trainer.md)
   - [Language Module](modules/07%20Language/Language.Trainer.md)
   - [Dynamic change of fonts, colors, and show output](Modules/08%20Dynamic%20Change%20Fonts/DynamicChangeFonts.Trainer.md)
+  - [Records](/Modules/09%20Records/Records.Trainer.md)
+  - [Transport totals](/Modules/10%20Transport/Transport.Trainer.md)
+  - [DataItems](/Modules/11%20DataItems/DataItems.Trainer.md)
+  - [Grouping](/Modules/12%20Grouping/Grouping.Trainer.md)
+  - [Create new reports](/Modules/13%20Create%20New%20Report/CreateNewReport.Trainer.md)
 - **Exercises**
   - [Setup](Exercises/Setup.Exercise.md)
   - [Edit your first report](Exercises/EditYourFirstReport.Exercise.md)
@@ -20,8 +25,13 @@
   - [Multilanguage](/Exercises/Multilanguage.Exercise.md)
   - [Language Module](/Exercises/Language.Exercise.md)
   - [Dynamic change of fonts, colors, and show output](/Exercises/DynamicChangeFonts.Exercise.md)
+  - [Records](/Exercises/Records.Exercise.md)
+  - [Transport totals](/Exercises/Transport.Exercise.md)
+  - [DataItems](/Exercises/DataItems.Exercise.md)
+  - [Grouping](/Exercises/Grouping.Exercise.md)
+  - [Create new reports](/Exercises/CreateNewReport.Exercise.md)
 - **Trainers Guides**
-  - [Classroom No-Code](Modules/Classroom%20NoCode.md)
-  - [Classroom Developer](Modules/Classroom%20Developer.md)
+  <!-- - [Classroom No-Code](Modules/Classroom%20NoCode.md) -->
+  <!-- - [Classroom Developer](Modules/Classroom%20Developer.md) -->
   - [Webinar No-Code](Modules/Webinar%20NoCode.md)
   - [Webinar Developer](Modules/Webinar%20Developer.md)

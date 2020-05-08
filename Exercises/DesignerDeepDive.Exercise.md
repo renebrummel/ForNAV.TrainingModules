@@ -11,4 +11,4 @@ Add to the Sales Template:
 * Make the Header.FieldGroups.Bill_toAddress control small and set the Can Grow property to true
 * Add an even style on the LinesTable in the LinesBody
 
-Use the ForNAV Guide for [Saas](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/DesignerExplained) or [OnPrem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/DesignerExplained)
+Use the ForNAV Guide for [SaaS](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/DesignerExplained) or [OnPrem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/DesignerExplained)

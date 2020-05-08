@@ -23,7 +23,6 @@ The No-Code track consists of 7 online sessions and covers these subjects
   * Groupheaders and -footers
 * Session 6
   * Create new reports
-  * Add page extensions
 * Session 7
   * Recap and last questions
 

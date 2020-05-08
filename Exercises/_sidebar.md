@@ -11,3 +11,8 @@
   - [Multilanguage](/Exercises/Multilanguage.Exercise.md)
   - [Language Module](/Exercises/Language.Exercise.md)
   - [Dynamic change of fonts, colors, and show output](/Exercises/DynamicChangeFonts.Exercise.md)
+  - [Records](/Exercises/Records.Exercise.md)
+  - [Transport totals](/Exercises/Transport.Exercise.md)
+  - [DataItems](/Exercises/DataItems.Exercise.md)
+  - [Grouping](/Exercises/Grouping.Exercise.md)
+  - [Create new reports](/Exercises/CreateNewReport.Exercise.md)
