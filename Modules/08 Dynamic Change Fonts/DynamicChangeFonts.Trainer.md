@@ -30,8 +30,8 @@ First step, change color
 
 ```javascript
 if (Header.Amount > 5000) {
-  CurrControl.ForeColor = ‘blue;
-  CurrControl.BackColor = ‘yellow’;
+  CurrControl.ForeColor = 'blue';
+  CurrControl.BackColor = 'yellow';
 }
 ```
 Second step, change font

@@ -12,3 +12,5 @@ Add to the Sales Template:
 * Add an even style on the LinesTable in the LinesBody
 
 Use the ForNAV Guide for [SaaS](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/DesignerExplained) or [OnPrem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/DesignerExplained)
+
+[Can Grow Knowledge base article](https://www.fornav.com/knowledge-base/cangrow/)

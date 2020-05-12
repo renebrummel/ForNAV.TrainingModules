@@ -1,6 +1,6 @@
 ### Dynamically change fonts and colors Exercise
 
-* Make the Header.DueDate text white on a blue background when the due date is 
+* Make the Header.DueDate text white on a blue background when the due date is earlier than today
 * Create a new Body section for the line dataitem. Add a text control and set Line.Description as the Source Expression
 * Only display this new section when the Line.Type is blank (comment line)
 * Only display the existing section when the Line.Type is not blank
@@ -19,8 +19,8 @@ Change colors
 
 ```javascript
 if (Header.Amount > 5000) {
-  CurrControl.ForeColor = ‘blue;
-  CurrControl.BackColor = ‘yellow’;
+  CurrControl.ForeColor = 'blue';
+  CurrControl.BackColor = 'yellow';
 }
 ```
 Change font
