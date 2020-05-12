@@ -23,6 +23,7 @@ Watch the video [How to add fields from an extension to a ForNAV report](https:/
 Duration:
 
 Run through the editing of ForNAV reports from the web client. Be sure to cover:
+* ForNAV Setup
 * Finding the ForNAV reports in the Web CLient (ForNAV Reports and ForNAV setup)
 * Running the report and preview
 * Opening the designer
@@ -31,6 +32,7 @@ Run through the editing of ForNAV reports from the web client. Be sure to cover:
 * Preview again
 * Saving the report
 * Running the finished report
+* Open reports and layouts from teh ForNAV designer
 
 ## Execution
 Duration:

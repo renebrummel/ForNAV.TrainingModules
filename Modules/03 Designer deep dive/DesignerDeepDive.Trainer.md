@@ -23,7 +23,8 @@ Watch the video [ForNAV Basic Features](ToDo)
 Duration: 30 min
 
 Demo:
-ForNAV Controls (Tool Box)
+
+**ForNAV Controls (Tool Box)**
 * Label
 * Text Box
 * Picture Box
@@ -33,31 +34,31 @@ ForNAV Controls (Tool Box)
 * Bar Code
 * Table
 
-Lint
+**Lint**
 * Explain options in Open/New/Save/Extensions
 * Mention Undo/Redo
 * Fonts
 * Alignment + layout -> Mostly self explanatory
 
-Design Pane
+**Design Pane**
 * DataItems
 * Sections
 * Controls
 
-Report Explorer
+**Report Explorer**
 * Mention that this is where all the items in the report end up
 * DataItems
 * Sections
 * Controls
 
-Property Grid
+**Property Grid**
 * Can Grow
 * Mutliline
 * Format String
 * Auto Fit
 * Styles
 
-Field List
+**Field List**
 * CurrReport
 * DynamicsNavDataSet
 * DataItems
