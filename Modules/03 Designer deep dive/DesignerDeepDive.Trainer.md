@@ -22,7 +22,7 @@ Watch the video [ForNAV Basic Features](ToDo)
 ## Preparation
 Duration: 30 min
 
-Demo:
+Demo. For developers open a report from the ForNAV Designer. For No-Code open the Sales Template
 
 **ForNAV Controls (Tool Box)**
 * Label

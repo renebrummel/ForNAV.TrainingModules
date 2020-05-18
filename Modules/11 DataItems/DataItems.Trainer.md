@@ -35,6 +35,8 @@ Duration:
 * Add the Balance header and field. Double check calculated field
 * Add a footer section with totals for the Balance field
 
+Explain how DataItems behave when you edit the report layout and when you edit the extension.
+
 ## Execution
 Duration:
 

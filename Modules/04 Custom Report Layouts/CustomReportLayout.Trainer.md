@@ -24,6 +24,8 @@ Duration:
 
 Demonstrate how ForNAV creates a custom report layout when reports are changed from the client. Demonstrate export and import. Demonstrate also how docx files seem empty.
 
+Developers only: Demonstrate moving custom layouts to an extension.
+
 ## Execution
 Duration:
 

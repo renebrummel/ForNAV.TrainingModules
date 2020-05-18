@@ -1,28 +1,32 @@
 # Grouping
 <dl>
   <dt><b>Level</b></dt>
-  <dd></dd>
+  <dd>Advanced</dd>
   <dt><b>Duration</b></dt>
   <dd></dd>
   <dt><b>Instructor participation</b></dt>
-  <dd>Web: <br>Classroom: </dd>
+  <dd>Web: Video<br>Classroom: Demo</dd>
   <dt><b>Training approach</b></dt>
-  <dd></dd>
+  <dd>Demo, exercise, reflect on exercise</dd>
   <dt><b>Prerequisites</b></dt>
   <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
-  <dd></dd>
+  <dd>ForNAV Guide</dd>
   <dt><b>Objective</b></dt>
-  <dd></dd>
+  <dd>After this module students can add DataItem filtering and GroupHeaders and -Footers to their report.</dd>
 </dl>
 
 ## Pre Training
-Watch the video []()
+Watch the video [Grouptotals Video](https://www.youtube.com/watch?v=yemM2uJmMS4)
 
 ## Preparation
 Duration:
 
-What are we going to do
+* Demo Grouping, Sort the List DataItem of the Customer - List on Customer Posting Group
+* Demo GroupHeaders, Add the GroupHeader and -Footer
+* Demo Add totals, Add GroupTotals on the DataItem
+* Demo New Page Per Group, Set New Page Per Group on the DataItem
+* Mention You can group on multiple fields.
 
 ## Execution
 Duration:
@@ -32,4 +36,4 @@ Duration:
 ## Reflection
 Duration:
 
-What did we just do, what are the results.
+What would you use grouptotals for?
