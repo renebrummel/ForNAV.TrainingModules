@@ -32,8 +32,8 @@ Duration:
   * Status
   * Make the header and body blue so they stand out a bit.
 * Sort by Doc Date in order descending
-* Add the Balance header and field. Double check calculated field
-* Add a footer section with totals for the Balance field
+* Add the Amount header and field. Double check calculated field
+* Add a footer section with totals for the Amount field
 
 Explain how DataItems behave when you edit the report layout and when you edit the extension.
 

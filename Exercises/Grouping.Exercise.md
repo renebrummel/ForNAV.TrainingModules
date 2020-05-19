@@ -3,7 +3,7 @@
 Using the sales invoice report do:
 * Sort the Line DataItem on Line.Type
 * Add a GroupHeader and -Footer
-* Add GroupTotals fore the Line.Amount
+* Add GroupTotals for the Line.Amount
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 

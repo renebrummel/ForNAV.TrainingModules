@@ -48,3 +48,4 @@ Duration:
 Duration:
 
 Go over the exercise. Make sure there are no question and everyone managed to do the exercise.
+Explain the problem with added Records and templates. Demo using the Sales Invoice

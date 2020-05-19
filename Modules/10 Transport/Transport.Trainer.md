@@ -24,9 +24,9 @@ Duration:
 
 What are we going to do
 
-Demo totalling by adding the Line.Amount field to the Sales Template Line footer. Demonstrate the automatic addition of these fields to the List."Total Fields" property.
+Demo totalling by adding the Line.Amount field to the Sales Template Line footer. Demonstrate the automatic addition of these fields to the List."Total Fields" property. Also demonstrate the adding of totals to the quantity field in the footer.
 
-Explain the way ForNAV calculates and displays totals. Explain totals can only be added in sections on the same DataItem level. Line totals cannot be dsiplayed in the Header footer etc.
+Explain the way ForNAV calculates and displays totals.
 
 Using the Sales template explain the way TransHeaders + TransFooter behave.
 
