@@ -141,3 +141,9 @@ Backup of *.doc*
 # Custom
 ############################
 ToDo.*
+
+
+# BC Extension
+**/.vscode/
+**/.alpackages/
+*.app

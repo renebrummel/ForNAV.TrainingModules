@@ -1,21 +1,15 @@
-### Add reports to an extension Exercise
-
-* Create a new empty extension
-* Add the dependencies to the ForNAV Core and ForNAV Report Pack
-* Create a new Sales Invoice report based on the Header Line template in the ForNAV Designer and save it as an AL object in your extension
-* Publish your extension
-* Change something in your report, save it and publish your extension form VS Code
-
-Advanced exercise
-* Download the Customer List report extension you created earlier and add that report to your new extension
-
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
-
-<!-- ToDO -> edit links -->
-
-### The ForNAV dependencies
-
-```json
+{
+  "id": "a2eeae24-1db3-478e-971d-9908a8430a18",
+  "name": "AddReportsToExtensionDemo",
+  "publisher": "Reports ForNAV",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
   "dependencies": [
     {
       "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
@@ -42,4 +36,16 @@ Use the ForNAV Guide for [SaaS]() or [OnPrem]()
       "version": "5.0.0.0"
     }
   ],
-```
+  "screenshots": [],
+  "platform": "16.0.0.0",
+  "idRanges": [
+    {
+      "from": 80100,
+      "to": 80149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AddReportsToExtensionDemo.com/help/",
+  "showMyCode": true,
+  "runtime": "5.0",
+  "target": "OnPrem"
+}

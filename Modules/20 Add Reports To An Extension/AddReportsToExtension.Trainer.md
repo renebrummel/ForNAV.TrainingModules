@@ -11,9 +11,9 @@
   <dt><b>Prerequisites</b></dt>
   <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
-  <dd>ForNAV Guide</dd>
+  <dd>ForNAV Guide<br>Demo Extension</dd>
   <dt><b>Objective</b></dt>
-  <dd>After this module students can</dd>
+  <dd>After this module students can create new ForNAV reports and add them to their own extension.</dd>
 </dl>
 
 ## Pre Training
@@ -22,7 +22,14 @@ Watch the video []()
 ## Preparation
 Duration:
 
-What are we going to do
+Demo
+
+* Download the extension we made in Create a Report
+* Unpack extension
+* Open in VS Code, fix errors and other things
+* Create new header line report
+* Save as AL File in the extension
+* Publish
 
 ## Execution
 Duration:
@@ -32,4 +39,4 @@ Duration:
 ## Reflection
 Duration:
 
-What did we just do, what are the results.
+Discuss the advantages and drwabacks of creating and editing reports in VS Code

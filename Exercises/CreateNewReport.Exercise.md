@@ -2,8 +2,6 @@
 
 1. Create a new report based on the List Template
 1. Save the new report as a new object on the server
-1. Add the ForNAV Setup Table to the records collection
-1. Get the ForNAV Setup table using JavaScript in the OnPreReport trigger
 1. Add a table to the body part with the fields No. Name, Address, and Balance (LCY);
 1. Space the columns;
 1. Add the background color Gainesboro to the odd rows;
@@ -13,10 +11,11 @@
 1. Add the Address Fieldgroup and add it to the address column in the body. Demo how ForNAV creates Fieldgroups; 
 1. Set the Can Grow property on the Address field to true;
 1. Set the Text Alignment property of the Address field to Top Left;
-1. Sort Customers with the highest balance first, go to the properties of the list, go to Data Item Table View. Sort Descending on the field Balance (LCY);
-1. Only display the first ten records. Set Max Iteration to 10.
 1. Add a Payment Terms Description column between the Address and the Balance (LCY).
+1. Add a new footer that only displays on the last page and show the total of the Balance (LCY) field there
 1. Add a page extension for this report.
+<!-- 1. Sort Customers with the highest balance first, go to the properties of the list, go to Data Item Table View. Sort Descending on the field Balance (LCY); -->
+<!-- 1. Only display the first ten records. Set Max Iteration to 10. -->
 
 **Advanced Exercise**
 
@@ -25,12 +24,14 @@ Copy the report you just made and change the List DataItem table to Vendor. Call
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 
+[Demonstration extension]()
+
 <!-- ToDO -> edit links -->
 
-### Sample scripts
+<!-- ### Sample scripts
 
 **Get the ForNAV Setup table**
 ```JavaScript
 ForNAVSetup.Get();
 ForNAVSetup.CalcFields('Logo');
-```
+``` -->
