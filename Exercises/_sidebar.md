@@ -16,3 +16,7 @@
   - [DataItems](/Exercises/DataItems.Exercise.md)
   - [Grouping](/Exercises/Grouping.Exercise.md)
   - [Create new reports](/Exercises/CreateNewReport.Exercise.md)
+  - [Add reports to an extension](/Exercises/AddReportToExtension.Exercise.md)
+  - [ForNAV API](/Exercises/API.Exercise.md)
+  - [Conversion](/Exercises/Conversion.Exercise.md)
+  - [JavaScript Deep Dive](/Exercises/JavaScript.Exercise.md)

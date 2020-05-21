@@ -16,6 +16,10 @@
   - [DataItems](/Modules/11%20DataItems/DataItems.Trainer.md)
   - [Grouping](/Modules/12%20Grouping/Grouping.Trainer.md)
   - [Create new reports](/Modules/13%20Create%20New%20Report/CreateNewReport.Trainer.md)
+  - [Add reports to an extension](/Modules/20%20Add%20Reports%20To%20An%20Extension/AddReportsToExtension.Trainer.md)
+  - [ForNAV API](/Modules/21%20API/API.Trainer.md)
+  - [Conversion](/Modules/22%20Conversion/Conversion.Trainer.md)
+  - [JavaScript Deep Dive](/Modules/23%20JavaScript%20Deep%20Dive/JavaScript.Trainer.md)
 - **Exercises**
   - [Setup](Exercises/Setup.Exercise.md)
   - [Edit your first report](Exercises/EditYourFirstReport.Exercise.md)
@@ -30,6 +34,10 @@
   - [DataItems](/Exercises/DataItems.Exercise.md)
   - [Grouping](/Exercises/Grouping.Exercise.md)
   - [Create new reports](/Exercises/CreateNewReport.Exercise.md)
+  - [Add reports to an extension](/Exercises/AddReportToExtension.Exercise.md)
+  - [ForNAV API](/Exercises/API.Exercise.md)
+  - [Conversion](/Exercises/Conversion.Exercise.md)
+  - [JavaScript Deep Dive](/Exercises/JavaScript.Exercise.md)
 - **Trainers Guides**
   <!-- - [Classroom No-Code](Modules/Classroom%20NoCode.md) -->
   <!-- - [Classroom Developer](Modules/Classroom%20Developer.md) -->
