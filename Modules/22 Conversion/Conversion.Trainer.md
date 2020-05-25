@@ -27,6 +27,7 @@ Duration:
 * Have a look at the converted file
 * Publish and demo the result
 * Run through the PowerShell commandlet
+* Mention it is possible to convert your entire CSide codebase to extensions. For free.
 
 ## Execution
 Duration:
