@@ -1,7 +1,7 @@
 # Conversion
 <dl>
   <dt><b>Level</b></dt>
-  <dd></dd>
+  <dd>Advanced</dd>
   <dt><b>Duration</b></dt>
   <dd></dd>
   <dt><b>Instructor participation</b></dt>
@@ -13,7 +13,7 @@
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide</dd>
   <dt><b>Objective</b></dt>
-  <dd>After this module students can</dd>
+  <dd>After this module students can convert classic and rdlc reports using the ForNAV converter or PowerShell</dd>
 </dl>
 
 ## Pre Training
@@ -22,7 +22,11 @@ Watch the video []()
 ## Preparation
 Duration:
 
-What are we going to do
+* Explain the converter setup and options
+* Convert the classic report Report 88005 to an extension using the converter.
+* Have a look at the converted file
+* Publish and demo the result
+* Run through the PowerShell commandlet
 
 ## Execution
 Duration:
@@ -32,4 +36,5 @@ Duration:
 ## Reflection
 Duration:
 
-What did we just do, what are the results.
+* What do you need to convert your reports?
+* Convert or create? What is the better option?

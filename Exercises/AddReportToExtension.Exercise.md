@@ -14,22 +14,36 @@ Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 [Demo extension with examples](https://github.com/renebrummel/ForNAV.TrainingModules/tree/master/Modules/20%20Add%20Reports%20To%20An%20Extension/AddReportsToExtensionDemo)
 <!-- ToDO -> edit links -->
 
+### Add the assembly probing paths
+
+In order to use dll files in your extension you need to tell Visual Studio Code where to find the assemblyProbingPaths. To do this you need to ddd these lines to the settings.json (in VS COde type Ctrl + Shift + P > Open Settings (JSON)).
+
+```json
+"al.assemblyProbingPaths": [
+        "./.netpackages",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/130/Service/Add-ins",
+        "C:/Program Files/Reports ForNAV/Add-ins/ReportsForNAV"
+]
+```
+
+### Enable the use of dlls in your extension
+
+In order to use dlls in your extension the target property in the app.json needs to be set to OnPrem
+
+
+```json
+  "target": "OnPrem"
+```
+
+> This property can be different depending on the Business Central version you use.
+
 ### The ForNAV dependencies
+
+You don't need to add any dependencies to your extension in order to create ForNAV reports for an On Premise extension. For ForNAV in a SaaS environment you just need the ForNAV Core extension. In order to copy custom versions of the report pack reports to your extension you need to add a dependency on the ForNAV report pack. In order to add them go to your app.json and add these dependencies.
 
 ```json
   "dependencies": [
-    {
-      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
-      "publisher": "Microsoft",
-      "name": "System Application",
-      "version": "16.0.0.0"
-    },
-    {
-      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
-      "publisher": "Microsoft",
-      "name": "Base Application",
-      "version": "16.0.0.0"
-    },
+    // The standard Business Central dependencies and any dependencies you already have will be here
     {
       "id": "6f0293d3-86fc-4ff8-9632-54a580be6546",
       "name": "ForNAV Core",
