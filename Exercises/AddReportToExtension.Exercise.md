@@ -11,6 +11,7 @@ Advanced exercise
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 
+[Demo extension with examples](https://github.com/renebrummel/ForNAV.TrainingModules/tree/master/Modules/20%20Add%20Reports%20To%20An%20Extension/AddReportsToExtensionDemo)
 <!-- ToDO -> edit links -->
 
 ### The ForNAV dependencies

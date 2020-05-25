@@ -25,14 +25,16 @@ Duration:
 What are we going to do
 
 Explain what we can do and cannot do in the AL files
-* Explain ForNAV Code
-* Explain the external layout files
-* Explain the lack of columns
-* Explain the ReportForNAV dll and its functions
-* Explain "Has OnPostSection Trigger" and "Has OnPreSection Trigger"
-* Demo the NewPage trigger
-* Explain the difference between cloud and on prem
-* ReportForNav.SetCopies('Header', NoOfCopies);
+* Demo make a copy of the Sales Template report
+* Save the new report to an extension and demonstrate:
+  * Explain ForNAV Code
+  * Explain the external layout files
+  * Explain the lack of columns
+  * Explain the ReportForNAV dll/Codeunit and its functions
+  * Explain "Has OnPostSection Trigger" and "Has OnPreSection Trigger"
+  * Demo the NewPage trigger
+  * Explain the difference between cloud and on prem
+  * ReportForNav.SetCopies('Header', NoOfCopies);
 
 ## Execution
 Duration:
