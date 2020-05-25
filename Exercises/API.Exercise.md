@@ -18,10 +18,12 @@ Advanced exercise
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 
-[Demo extension with examples](https://github.com/renebrummel/ForNAV.TrainingModules/tree/master/Modules/21%20API/APIDemo)
+> * [Demo PDF to append](https://github.com/renebrummel/ForNAV.TrainingModules/blob/master/Modules/21%20API/Append.pdf)
+> * [Demo watermarks](https://www.fornav.com/report-watermarks/)
+> * [Demo extension with examples](https://github.com/renebrummel/ForNAV.TrainingModules/tree/master/Modules/21%20API/APIDemo)
 <!-- ToDO -> edit links -->
 
-**Load Watermark function**
+### Load Watermark function
 ```AL
 	trigger OnPreReport()
 	begin
@@ -46,7 +48,7 @@ Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 	end;
 ```
 
-**AppendPdf function**
+### AppendPdf function
 
 ```AL
     trigger OnInitReport()

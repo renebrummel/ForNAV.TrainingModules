@@ -24,6 +24,12 @@ Duration:
 
 What are we going to do
 
+* Ask if any familiarity with JavaScript. If not use JavaScript ppt
+* Demo all from [fonts and colors](/Modules/08%20Dynamic%20Change%20Fonts/DynamicChangeFonts.Trainer.md)
+* Create Array to hold a virtual list. Display this list with JavaScript
+  * List of all comments on a sales line
+  * Display this list underneath the body line
+
 ## Execution
 Duration:
 

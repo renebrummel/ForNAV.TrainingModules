@@ -1,11 +1,11 @@
 # ForNAV API
 <dl>
   <dt><b>Level</b></dt>
-  <dd></dd>
+  <dd>Advanced</dd>
   <dt><b>Duration</b></dt>
   <dd></dd>
   <dt><b>Instructor participation</b></dt>
-  <dd>Web: Video<br>Classroom: Demo</dd>
+  <dd>Web: Demo<br>Classroom: Demo</dd>
   <dt><b>Training approach</b></dt>
   <dd>Demo, exercise, reflect on exercise</dd>
   <dt><b>Prerequisites</b></dt>

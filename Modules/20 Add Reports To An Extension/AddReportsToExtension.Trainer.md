@@ -1,7 +1,7 @@
 # Add reports to an extension
 <dl>
   <dt><b>Level</b></dt>
-  <dd></dd>
+  <dd>Advanced</dd>
   <dt><b>Duration</b></dt>
   <dd></dd>
   <dt><b>Instructor participation</b></dt>
