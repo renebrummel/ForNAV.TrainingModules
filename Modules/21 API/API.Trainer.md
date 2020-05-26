@@ -34,7 +34,7 @@ Explain what we can do and cannot do in the AL files
   * Explain "Has OnPostSection Trigger" and "Has OnPreSection Trigger"
   * Demo the NewPage trigger
   * Explain the difference between cloud and on prem
-  * ReportForNav.SetCopies('Header', NoOfCopies);
+  * ReportForNav.GetDataItem('Header').Copies(NoOfCopies);
 
 ## Execution
 Duration:
