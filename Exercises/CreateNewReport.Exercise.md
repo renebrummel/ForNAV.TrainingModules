@@ -11,8 +11,8 @@
 1. Add the Address Fieldgroup and add it to the address column in the body. Demo how ForNAV creates Fieldgroups; 
 1. Set the Can Grow property on the Address field to true;
 1. Set the Text Alignment property of the Address field to Top Left;
+1. Set the Can Grow properties of the body table and Body1 section to true
 1. Add a Payment Terms Description column between the Address and the Balance (LCY).
-1. Add a new footer that only displays on the last page and show the total of the Balance (LCY) field there
 1. Add a page extension for this report.
 <!-- 1. Sort Customers with the highest balance first, go to the properties of the list, go to Data Item Table View. Sort Descending on the field Balance (LCY); -->
 <!-- 1. Only display the first ten records. Set Max Iteration to 10. -->
@@ -21,10 +21,8 @@
 
 Copy the report you just made and change the List DataItem table to Vendor. Call this report Vendor Top 10, and save it as a new object.
 
-
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 
-[Demonstration extension]()
 
 <!-- ToDO -> edit links -->
 

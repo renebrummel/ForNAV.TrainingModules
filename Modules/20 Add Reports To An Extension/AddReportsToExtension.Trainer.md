@@ -27,6 +27,8 @@ Demo
 * Download the extension we made in Create a Report
 * Unpack extension
 * Open in VS Code, fix errors and other things
+* Explain the ForNAV Report AL files and the Layout files
+* Explain necesary dependencies 
 * Create new header line report
 * Save as AL File in the extension
 * Publish
@@ -39,4 +41,4 @@ Duration:
 ## Reflection
 Duration:
 
-Discuss the advantages and drwabacks of creating and editing reports in VS Code
+Discuss the advantages and drawbacks of creating and editing reports in VS Code
