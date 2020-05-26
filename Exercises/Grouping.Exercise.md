@@ -5,6 +5,9 @@ Using the sales invoice report do:
 * Add a GroupHeader and -Footer
 * Add GroupTotals for the Line.Amount
 
+Advanced exercise
+* Add a second group header and footer for the totals per No.
+
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 
 > [Grouptotals Video](https://www.youtube.com/watch?v=yemM2uJmMS4)
