@@ -24,7 +24,7 @@ Duration:
 
 What are we going to do
 
-* Ask if any familiarity with JavaScript. If not use JavaScript ppt
+* Ask if any familiarity with JavaScript. If not use the [JavaScript PowerPoint](https://github.com/renebrummel/ForNAV.TrainingModules/raw/master/Modules/23%20JavaScript%20Deep%20Dive/JavaScript%20Deep%20Dive.pptx)
 * Discuss JavaScript order of execution ppt
 * Demo all from [fonts and colors](/Modules/08%20Dynamic%20Change%20Fonts/DynamicChangeFonts.Trainer.md)
 * Create Array to hold a virtual list. Display this list with JavaScript

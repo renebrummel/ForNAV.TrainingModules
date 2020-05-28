@@ -4,6 +4,8 @@
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 
+<!-- ToDO -> edit links -->
+
 ### Business Central functions in JavaScript
 
 |JavaScript                     |AL                             |
@@ -38,5 +40,3 @@ Videos
 * [Change fonts/color/showoutput with JavaScript](https://www.youtube.com/watch?v=T-GY6ObU82c&list=PLtpjnuA-F0c_XQ-y7kGZKAWCXeop7F7Wa&index=11)
 * [Working with JavaScript in the ForNAV Designer](https://www.youtube.com/watch?v=4cwbxUq-tc8&t=0s&index=11&list=PLtpjnuA-F0c9bZf3emvhz86-S1uX0a0II)
 
-
-<!-- ToDO -> edit links -->
