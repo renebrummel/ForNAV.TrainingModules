@@ -1,7 +1,7 @@
 # JavaScript Deep Dive
 <dl>
   <dt><b>Level</b></dt>
-  <dd></dd>
+  <dd>Advanced</dd>
   <dt><b>Duration</b></dt>
   <dd></dd>
   <dt><b>Instructor participation</b></dt>
@@ -13,7 +13,7 @@
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide</dd>
   <dt><b>Objective</b></dt>
-  <dd>After this module students can</dd>
+  <dd>After this module students can use JavaScript to dynamically change the report layout, calculate totals, etc</dd>
 </dl>
 
 ## Pre Training
@@ -25,6 +25,7 @@ Duration:
 What are we going to do
 
 * Ask if any familiarity with JavaScript. If not use JavaScript ppt
+* Discuss JavaScript order of execution ppt
 * Demo all from [fonts and colors](/Modules/08%20Dynamic%20Change%20Fonts/DynamicChangeFonts.Trainer.md)
 * Create Array to hold a virtual list. Display this list with JavaScript
   * List of all comments on a sales line
@@ -32,6 +33,9 @@ What are we going to do
 
 ## Execution
 Duration:
+
+[filename](../../Exercises/DynamicChangeFonts.Exercise.md ':include')
+
 
 [filename](../../Exercises/JavaScript.Exercise.md ':include')
 

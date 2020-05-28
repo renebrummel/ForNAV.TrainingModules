@@ -10,10 +10,10 @@ The developer track consists of these subjects
   * Create new reports
   * Add ForNAV reports to your own extension
   * The ForNAV API
-  * ForNAV Language module
   * Templates
   * Custom report layouts
 * Session 2
+  * ForNAV Language module
   * Adding data from other tables
   * Totals and transheaders and -footers
   * Add DataItems

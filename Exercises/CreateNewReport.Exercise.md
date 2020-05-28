@@ -29,7 +29,7 @@ Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 <!-- ### Sample scripts
 
 **Get the ForNAV Setup table**
-```JavaScript
+```javascript
 ForNAVSetup.Get();
 ForNAVSetup.CalcFields('Logo');
 ``` -->
