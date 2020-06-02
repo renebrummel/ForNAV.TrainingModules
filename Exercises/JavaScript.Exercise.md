@@ -1,10 +1,71 @@
 ### JavaScript Exercise
 
+* Get the sales comment lines for an invoice header and display them on an automatically growing header section
 
+Advanced option
+* Get an array of Sales Invoice Line comments
+* Sort the array by date, the most recent comment first
+* Display them underneath the VAT Amount Line
 
 Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 
 <!-- ToDO -> edit links -->
+
+### Demo Scripts
+
+**Get comment lines**
+
+For maximum effect this should be placed in the OnPreReport trigger so it can be inherited by any reports that use it as a master template
+
+```javascript
+function GetComments(headerNo) {
+  var comments;
+  
+  SalesCommentLine.SetFilter('DocumentType', SalesCommentLine.FieldOptions.DocumentType.PostedInvoice);
+  SalesCommentLine.SetFilter('No', headerNo);
+  if (SalesCommentLine.First()) {
+    comments = SalesCommentLine.Comment;
+  }
+  
+  while (SalesCommentLine.Next()) {
+    comments += ' ' + SalesCommentLine.Comment;
+  }
+  return comments;
+}
+```
+
+**Get comment lines as an array**
+
+Add this to the Header OnAfterGetRecord
+```javascript
+var comments = [];
+function GetComments(headerNo, lineNo) {
+  var _comments = [];
+  var _comment;
+  
+  SalesCommentLine.SetFilter('DocumentType', SalesCommentLine.FieldOptions.DocumentType.PostedInvoice);
+  SalesCommentLine.SetFilter('No', headerNo);
+  SalesCommentLine.SetFilter('LineNo', lineNo);
+
+  if (SalesCommentLine.First()) {
+    _comment = {date:SalesCommentLine.Date, lineNo:Line.LineNo, comment:SalesCommentLine.Comment};
+    _comments.push(_comment);
+  }
+  
+  while (SalesCommentLine.Next()) {
+    _comment = {date:SalesCommentLine.Date, lineNo:Line.LineNo, comment:SalesCommentLine.Comment};
+    _comments.push(_comment);
+  }
+  return _comments;
+}
+```
+
+Add this to the Line.OnAfterGetRecord
+```javascript
+comments.push.apply(comments, GetComments(Line.DocumentNo, Line.LineNo));
+```
+
+
 
 ### Business Central functions in JavaScript
 
@@ -18,7 +79,7 @@ Use the ForNAV Guide for [SaaS]() or [OnPrem]()
 |First();                       |FindFirst;                     |
 |SetFilter(‘Name’, ‘Mark’);     |SetFilter(Name, ‘Mark’);       |
 |SetRange(‘Name’, ‘Mark’);      |SetRange(Name, ‘Mark’);        |
-|-
+|<br>
 |Case Sensitive                 |Not case sensitive             |
 |Parentheses mandatory          |Parentheses somewhat mandatory |
 |Fieldnames in single quotes	|Fieldnames not in quotes   	|

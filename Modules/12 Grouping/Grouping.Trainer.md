@@ -27,6 +27,7 @@ Duration:
 * Demo Add totals, Add GroupTotals on the DataItem
 * Demo New Page Per Group, Set New Page Per Group on the DataItem
 * Mention You can group on multiple fields.
+  * In this case you need to set the Group Total Field No on the Group Header/Footer
 
 ## Execution
 Duration:
