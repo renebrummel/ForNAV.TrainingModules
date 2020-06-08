@@ -17,13 +17,13 @@ Report 89002 "I02 Sales Invoice Start(88002)"
 
 	dataset
 	{
-		dataitem(Header;"Sales Invoice Header")
+		DataItem(Header;"Sales Invoice Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.");
 			RequestFilterFields = "No.";
 			column(ReportForNavId_1; 1) {}
-			dataitem(Line;"Sales Invoice Line")
+			DataItem(Line;"Sales Invoice Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;

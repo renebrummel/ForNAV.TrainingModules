@@ -19,7 +19,7 @@ Report 70002 "ForNAV VAT Credit Memo"
 
 	dataset
 	{
-		dataitem(Header;"Sales Cr.Memo Header")
+		DataItem(Header;"Sales Cr.Memo Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.");
@@ -29,14 +29,14 @@ Report 70002 "ForNAV VAT Credit Memo"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Cr.Memo Line")
+			DataItem(Line;"Sales Cr.Memo Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;
 				DataItemTableView = sorting("Document No.","Line No.");
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier","VAT Calculation Type","Tax Group Code","Use Tax",Positive);
 				UseTemporary = true;
@@ -48,7 +48,7 @@ Report 70002 "ForNAV VAT Credit Memo"
 				end;
 				
 			}
-			dataitem(VATClause;"VAT Clause")
+			DataItem(VATClause;"VAT Clause")
 			{
 				DataItemTableView = sorting(Code);
 				UseTemporary = true;

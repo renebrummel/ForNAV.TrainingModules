@@ -17,24 +17,24 @@ Report 89053 "A04 Template Finished(88053)"
 
 	dataset
 	{
-		dataitem(Header;"Sales Header")
+		DataItem(Header;"Sales Header")
 		{
 			DataItemTableView = sorting("Document Type","No.") where("Document Type"=const(Order));
 			RequestFilterFields = "No.";
 			column(ReportForNavId_1; 1) {}
-			dataitem(Line;"Sales Line")
+			DataItem(Line;"Sales Line")
 			{
 				DataItemLink = "Document Type"=field("Document Type"),"Document No."=field("No.");
 				DataItemTableView = sorting("Document Type","Document No.","Line No.");
 				column(ReportForNavId_2; 2) {}
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier","VAT Calculation Type","Tax Group Code","Use Tax",Positive);
 				UseTemporary = true;
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(VATClause;"VAT Clause")
+			DataItem(VATClause;"VAT Clause")
 			{
 				column(ReportForNavId_4; 4) {}
 			}

@@ -21,7 +21,7 @@
 
 Copy the report you just made and change the List DataItem table to Vendor. Call this report Vendor Top 10, and save it as a new object.
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 
 <!-- ToDO -> edit links -->

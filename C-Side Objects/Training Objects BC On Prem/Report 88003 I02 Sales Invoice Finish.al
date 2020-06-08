@@ -18,26 +18,26 @@ Report 89003 "I02 Sales Invoice Finish"
 
     dataset
     {
-        dataitem(Header; "Sales Invoice Header")
+        DataItem(Header; "Sales Invoice Header")
         {
             CalcFields = Amount, "Amount Including VAT";
             DataItemTableView = sorting ("No.");
             RequestFilterFields = "No.";
             column(ReportForNavId_1; 1) { }
-            dataitem(Line; "Sales Invoice Line")
+            DataItem(Line; "Sales Invoice Line")
             {
                 DataItemLink = "Document No." = field ("No.");
                 DataItemLinkReference = Header;
                 DataItemTableView = sorting ("Document No.", "Line No.");
                 column(ReportForNavId_2; 2) { }
             }
-            dataitem(VATAmountLine; "VAT Amount Line")
+            DataItem(VATAmountLine; "VAT Amount Line")
             {
                 DataItemTableView = sorting ("VAT Identifier", "VAT Calculation Type", "Tax Group Code", "Use Tax", Positive);
                 UseTemporary = true;
                 column(ReportForNavId_3; 3) { }
             }
-            dataitem(VATClause; "VAT Clause")
+            DataItem(VATClause; "VAT Clause")
             {
                 column(ReportForNavId_4; 4) { }
             }

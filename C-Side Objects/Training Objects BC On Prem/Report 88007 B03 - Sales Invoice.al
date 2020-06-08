@@ -17,10 +17,10 @@ Report 89007 "B03 - Sales Invoice(88007)"
 
 	dataset
 	{
-		dataitem(Header;"Sales Invoice Header")
+		DataItem(Header;"Sales Invoice Header")
 		{
 			column(ReportForNavId_2; 2) {}
-			dataitem(Line;"Sales Invoice Line")
+			DataItem(Line;"Sales Invoice Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;

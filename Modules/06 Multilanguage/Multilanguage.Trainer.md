@@ -9,11 +9,11 @@
   <dt><b>Training approach</b></dt>
   <dd>Demo, exercise, reflect on exercise</dd>
   <dt><b>Prerequisites</b></dt>
-  <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
+  <dd>All students have access to a Business Central instance (On Premise or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide</dd>
   <dt><b>Objective</b></dt>
-  <dd>After this modules students can create new multilanguage labels and describe the working of the Can Grow and Multiline properties.</dd>
+  <dd>After this modules students can create new multi language labels and describe the working of the Can Grow and Multiline properties.</dd>
 </dl>
 
 ## Pre Training
@@ -40,4 +40,4 @@ Duration:
 ## Reflection
 Duration:
 
-What else can we do with this? How far can we go with this multilanguage tool?
+What else can we do with this? How far can we go with this multi language tool?

@@ -19,7 +19,7 @@ Report 70526 "ForNAV Template - Landscape"
 
 	dataset
 	{
-		dataitem(Integer;Integer)
+		DataItem(Integer;Integer)
 		{
 			MaxIteration = 1;
 			column(ReportForNavId_1000000000; 1000000000) {}

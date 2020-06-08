@@ -21,7 +21,7 @@ Report 56001 "ForNAV VAT Sales Inv Track"
 
     dataset
     {
-        dataitem(Header; "Sales Invoice Header")
+        DataItem(Header; "Sales Invoice Header")
         {
             DataItemTableView = sorting ("No.");
             CalcFields = "Amount Including VAT", Amount;
@@ -31,13 +31,13 @@ Report 56001 "ForNAV VAT Sales Inv Track"
             {
                 IncludeCaption = false;
             }
-            dataitem(Line; "Sales Invoice Line")
+            DataItem(Line; "Sales Invoice Line")
             {
                 DataItemTableView = sorting ("Document No.", "Line No.");
                 DataItemLinkReference = Header;
                 DataItemLink = "Document No." = field ("No.");
                 column(ReportForNavId_3; 3) { }
-                dataitem(TrackingSpecification; "Tracking Specification")
+                DataItem(TrackingSpecification; "Tracking Specification")
                 {
                     UseTemporary = true;
                     column(ReportForNavId_1000000003; 1000000003) { }
@@ -47,7 +47,7 @@ Report 56001 "ForNAV VAT Sales Inv Track"
                     GetTrackingSpecification();
                 end;
             }
-            dataitem(VATAmountLine; "VAT Amount Line")
+            DataItem(VATAmountLine; "VAT Amount Line")
             {
                 DataItemTableView = sorting ("VAT Identifier", "VAT Calculation Type", "Tax Group Code", "Use Tax", Positive);
                 UseTemporary = true;
@@ -59,7 +59,7 @@ Report 56001 "ForNAV VAT Sales Inv Track"
                 end;
 
             }
-            dataitem(VATClause; "VAT Clause")
+            DataItem(VATClause; "VAT Clause")
             {
                 DataItemTableView = sorting (Code);
                 UseTemporary = true;

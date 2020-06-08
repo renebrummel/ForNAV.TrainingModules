@@ -18,7 +18,7 @@ Report 89000 "B02 Customer Top 10(88000)"
 
     dataset
     {
-        dataitem(List; Customer)
+        DataItem(List; Customer)
         {
             CalcFields = "Balance (LCY)";
             DataItemTableView = sorting ("Balance (LCY)") order(descending);

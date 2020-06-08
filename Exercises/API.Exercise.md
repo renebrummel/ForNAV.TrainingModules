@@ -16,7 +16,7 @@ Using the new Sales Invoice report extension you created earlier do:
 Advanced exercise
 * Call the CurrReport.Language in AL to set the report language based on the document language.
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 > * [Demo PDF to append](https://github.com/renebrummel/ForNAV.TrainingModules/blob/master/Modules/21%20API/Append.pdf)
 > * [Demo watermarks](https://www.fornav.com/report-watermarks/)

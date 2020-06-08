@@ -18,17 +18,17 @@ Report 70211 "ForNAV Vendor Payments"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Vendor Payments Args.")
+		DataItem(Args;"ForNAV Vendor Payments Args.")
 		{
 			DataItemTableView = sorting("Consider Discount");
 			UseTemporary = true;
 			column(ReportForNavId_1; 1) {}
-			dataitem(Vendor;Vendor)
+			DataItem(Vendor;Vendor)
 			{
 				PrintOnlyIfDetail = true;
 				RequestFilterFields = "No.","Vendor Posting Group","Purchaser Code",Priority,"Payment Method Code";
 				column(ReportForNavId_3182; 3182) {}
-				dataitem("Vendor Ledger Entry";"Vendor Ledger Entry")
+				DataItem("Vendor Ledger Entry";"Vendor Ledger Entry")
 				{
 					CalcFields = Amount,"Remaining Amount","Remaining Amt. (LCY)","Amount (LCY)";
 					DataItemLink = "Vendor No."=field("No."),"Global Dimension 1 Code"=field("Global Dimension 1 Filter"),"Global Dimension 2 Code"=field("Global Dimension 2 Filter");

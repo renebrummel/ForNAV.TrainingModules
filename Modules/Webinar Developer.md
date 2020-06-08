@@ -15,9 +15,9 @@ The developer track consists of these subjects
 * Session 2
   * ForNAV Language module
   * Adding data from other tables
-  * Totals and transheaders and -footers
+  * Totals and transport totals
   * Add DataItems
-  * Groupheaders and -footers
+  * Group headers and footers
   * Conversion
   * JavaScript Deep Dive
 * Session 3
@@ -34,7 +34,7 @@ All training includes:
   * How To guides
 
 Prerequisites
-* Have access to your own Business Central Sandbox, On Prem, or Docker installation (minimum BC14)
+* Have access to your own Business Central Sandbox, On Premise, or Docker installation (minimum BC14)
 * Visual Studio Code installed
 * You can create, publish, and debug Business Central extensions
 

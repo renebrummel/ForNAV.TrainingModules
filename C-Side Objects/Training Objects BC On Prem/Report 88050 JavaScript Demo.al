@@ -17,7 +17,7 @@ Report 89050 "JavaScript Demo(88050)"
 
 	dataset
 	{
-		dataitem(Integer;Integer)
+		DataItem(Integer;Integer)
 		{
 			MaxIteration = 1;
 			column(ReportForNavId_1000000000; 1000000000) {}

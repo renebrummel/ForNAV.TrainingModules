@@ -19,16 +19,16 @@ Report 70221 "ForNAV Aged Accounts Payables"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Aged Accounts Args.")
+		DataItem(Args;"ForNAV Aged Accounts Args.")
 		{
 			DataItemTableView = sorting("Print Amounts in LCY");
 			UseTemporary = true;
 			column(ReportForNavId_1000000001; 1000000001) {}
-			dataitem(Account;Vendor)
+			DataItem(Account;Vendor)
 			{
 				RequestFilterFields = "No.";
 				column(ReportForNavId_6836; 6836) {}
-				dataitem(AgingBuffer;"ForNAV Aging Buffer")
+				DataItem(AgingBuffer;"ForNAV Aging Buffer")
 				{
 					DataItemTableView = sorting("Currency Code");
 					UseTemporary = true;
@@ -42,7 +42,7 @@ Report 70221 "ForNAV Aged Accounts Payables"
 				end;
 				
 			}
-			dataitem(CurrencyTotalsBuffer;"ForNAV Aging Buffer")
+			DataItem(CurrencyTotalsBuffer;"ForNAV Aging Buffer")
 			{
 				DataItemTableView = sorting("Currency Code");
 				UseTemporary = true;

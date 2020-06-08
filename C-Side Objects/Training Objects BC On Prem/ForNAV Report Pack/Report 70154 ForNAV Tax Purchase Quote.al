@@ -19,7 +19,7 @@ Report 70154 "ForNAV Tax Purchase Quote"
 
 	dataset
 	{
-		dataitem(Header;"Purchase Header")
+		DataItem(Header;"Purchase Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.") where("Document Type"=const(Quote));
@@ -29,14 +29,14 @@ Report 70154 "ForNAV Tax Purchase Quote"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Purchase Line")
+			DataItem(Line;"Purchase Line")
 			{
 				DataItemLink = "Document No."=field("No."),"Document Type"=field("Document Type");
 				DataItemLinkReference = Header;
 				DataItemTableView = sorting("Document No.","Line No.");
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
+			DataItem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
 			{
 				DataItemTableView = sorting("Primary Key");
 				UseTemporary = true;

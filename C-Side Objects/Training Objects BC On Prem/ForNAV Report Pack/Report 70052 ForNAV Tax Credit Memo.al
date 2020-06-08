@@ -19,7 +19,7 @@ Report 70052 "ForNAV Tax Credit Memo"
 
 	dataset
 	{
-		dataitem(Header;"Sales Cr.Memo Header")
+		DataItem(Header;"Sales Cr.Memo Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.");
@@ -29,14 +29,14 @@ Report 70052 "ForNAV Tax Credit Memo"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Cr.Memo Line")
+			DataItem(Line;"Sales Cr.Memo Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;
 				DataItemTableView = sorting("Document No.","Line No.");
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
+			DataItem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
 			{
 				DataItemTableView = sorting("Primary Key");
 				UseTemporary = true;

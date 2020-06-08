@@ -18,7 +18,7 @@ Report 89005 "Cust. Entries List (AL)"
 
     dataset
     {
-        dataitem(Customer; Customer)
+        DataItem(Customer; Customer)
         {
             PrintOnlyIfDetail = true;
             column(ReportForNavId_1; 1) { }
@@ -34,7 +34,7 @@ Report 89005 "Cust. Entries List (AL)"
             column(Customer_Name; Name)
             {
             }
-            dataitem("Cust. Ledger Entry"; "Cust. Ledger Entry")
+            DataItem("Cust. Ledger Entry"; "Cust. Ledger Entry")
             {
                 CalcFields = Amount;
                 DataItemLink = "Customer No." = field ("No.");

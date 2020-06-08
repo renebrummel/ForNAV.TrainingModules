@@ -7,6 +7,6 @@ Using the Customer - List report do:
 * Add a TransHeader and add the Header captions, the continued caption and the List.Balance_LCY and List.NetChange_LCY fields to it
 * Add a TransFooter and add the continued caption and the List.Balance_LCY and List.NetChange_LCY fields to it
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 <!-- ToDO -> edit links -->

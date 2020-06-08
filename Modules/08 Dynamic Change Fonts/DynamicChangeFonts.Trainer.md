@@ -9,15 +9,15 @@
   <dt><b>Training approach</b></dt>
   <dd>Demo, exercise, reflect on exercise</dd>
   <dt><b>Prerequisites</b></dt>
-  <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
+  <dd>All students have access to a Business Central instance (On Premise or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide<br>Demo code<br>Links to Format Strings</dd>
   <dt><b>Objective</b></dt>
-  <dd>After this module students can change fonts, colors and showoutput based on conditions.</dd>
+  <dd>After this module students can change fonts, colors and show output based on conditions.</dd>
 </dl>
 
 ## Pre Training
-Watch the video [Change fonts/color/showoutput with JavaScript](https://www.youtube.com/watch?v=T-GY6ObU82c&list=PLtpjnuA-F0c_XQ-y7kGZKAWCXeop7F7Wa&index=3&t=0s)
+Watch the video [Change fonts/color/show output with JavaScript](https://www.youtube.com/watch?v=T-GY6ObU82c&list=PLtpjnuA-F0c_XQ-y7kGZKAWCXeop7F7Wa&index=3&t=0s)
 
 ## Preparation
 Duration:

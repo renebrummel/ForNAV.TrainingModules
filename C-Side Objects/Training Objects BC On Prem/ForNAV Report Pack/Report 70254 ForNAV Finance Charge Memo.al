@@ -18,16 +18,16 @@ Report 70254 "ForNAV Finance Charge Memo"
 
 	dataset
 	{
-		dataitem(Header;"Issued Fin. Charge Memo Header")
+		DataItem(Header;"Issued Fin. Charge Memo Header")
 		{
 			column(ReportForNavId_1000000000; 1000000000) {}
-			dataitem(Line;"Issued Fin. Charge Memo Line")
+			DataItem(Line;"Issued Fin. Charge Memo Line")
 			{
 				DataItemLink = "Finance Charge Memo No."=field("No.");
 				DataItemTableView = sorting("Finance Charge Memo No.","Line No.");
 				column(ReportForNavId_1000000001; 1000000001) {}
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier","VAT Calculation Type","Tax Group Code","Use Tax",Positive);
 				UseTemporary = true;

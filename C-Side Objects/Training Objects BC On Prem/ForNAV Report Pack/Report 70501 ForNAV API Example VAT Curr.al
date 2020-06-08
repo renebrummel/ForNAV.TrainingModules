@@ -19,7 +19,7 @@ Report 70501 "ForNAV API Example VAT Curr."
 
 	dataset
 	{
-		dataitem(Header;"Sales Invoice Header")
+		DataItem(Header;"Sales Invoice Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.");
@@ -29,14 +29,14 @@ Report 70501 "ForNAV API Example VAT Curr."
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Invoice Line")
+			DataItem(Line;"Sales Invoice Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;
 				DataItemTableView = sorting("Document No.","Line No.");
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier","VAT Calculation Type","Tax Group Code","Use Tax",Positive);
 				UseTemporary = true;
@@ -48,13 +48,13 @@ Report 70501 "ForNAV API Example VAT Curr."
 				end;
 				
 			}
-			dataitem(VATClause;"VAT Clause")
+			DataItem(VATClause;"VAT Clause")
 			{
 				DataItemTableView = sorting(Code);
 				UseTemporary = true;
 				column(ReportForNavId_1000000002; 1000000002) {}
 			}
-			dataitem(VATCurrency;"ForNAV VAT Currency Buffer")
+			DataItem(VATCurrency;"ForNAV VAT Currency Buffer")
 			{
 				DataItemTableView = sorting("Currency Code");
 				UseTemporary = true;

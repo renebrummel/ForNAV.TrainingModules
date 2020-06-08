@@ -19,7 +19,7 @@ Report 89101 "Customer - List(AL)"
 
     dataset
     {
-        dataitem(Customer; Customer)
+        DataItem(Customer; Customer)
         {
             RequestFilterFields = "No.", "Search Name", "Customer Posting Group";
             column(ReportForNavId_6836; 6836) { }

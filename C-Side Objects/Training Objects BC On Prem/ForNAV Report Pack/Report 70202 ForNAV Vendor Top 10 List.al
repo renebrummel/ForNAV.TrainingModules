@@ -19,7 +19,7 @@ Report 70202 "ForNAV Vendor Top 10 List"
 
 	dataset
 	{
-		dataitem(Vendor;Vendor)
+		DataItem(Vendor;Vendor)
 		{
 			CalcFields = "Balance (LCY)","Net Change (LCY)";
 			DataItemTableView = sorting("Net Change (LCY)") order(descending);

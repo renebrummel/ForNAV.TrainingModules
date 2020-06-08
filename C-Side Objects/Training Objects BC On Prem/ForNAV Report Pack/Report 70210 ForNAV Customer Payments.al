@@ -18,13 +18,13 @@ Report 70210 "ForNAV Customer Payments"
 
 	dataset
 	{
-		dataitem(CustLedgerEntry;"Cust. Ledger Entry")
+		DataItem(CustLedgerEntry;"Cust. Ledger Entry")
 		{
 			CalcFields = "Remaining Amt. (LCY)","Amount (LCY)";
 			DataItemTableView = sorting("Customer No.","Document Type","Posting Date") where("Document Type"=filter(Payment|"Credit Memo"));
 			RequestFilterFields = "Posting Date","Global Dimension 1 Code","Global Dimension 2 Code","Salesperson Code","Customer No.";
 			column(ReportForNavId_8503; 8503) {}
-			dataitem(TempAppliedCustLedgEntry;"Cust. Ledger Entry")
+			DataItem(TempAppliedCustLedgEntry;"Cust. Ledger Entry")
 			{
 				CalcFields = "Original Amt. (LCY)","Amount (LCY)";
 				DataItemTableView = sorting("Entry No.");

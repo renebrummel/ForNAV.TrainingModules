@@ -13,7 +13,7 @@ Report 89000 "ForNAV W02 Customer Top 10"
 
     dataset
     {
-        dataitem(List; Customer)
+        DataItem(List; Customer)
         {
             DataItemTableView = sorting ("Balance (LCY)") order(Descending);
             CalcFields = "Balance (LCY)", "Sales (LCY)";

@@ -10,6 +10,6 @@
 * Sort by Doc Date in order descending
 * Add the Amount field to the footer. Make sure it calculates the correct total
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 <!-- ToDO -> edit links -->

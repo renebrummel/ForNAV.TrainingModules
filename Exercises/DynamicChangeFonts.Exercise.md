@@ -1,12 +1,12 @@
 ### Dynamically change fonts and colors Exercise
 
 * Make the Header.DueDate text white on a blue background when the due date is earlier than today
-* Create a new Body section for the line dataitem. Add a text control and set Line.Description as the Source Expression
+* Create a new Body section for the line DataItem. Add a text control and set Line.Description as the Source Expression
 * Only display this new section when the Line.Type is blank (comment line)
 * Only display the existing section when the Line.Type is not blank
 * Change the font of the Header.FieldGroups.Bill_toAddress bold and underlined when the address is not in your own country
 
-Use the ForNAV Guide for [SaaS](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/EditYourFirstReport) or [OnPrem](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/EditYourFirstReport)
+Use the ForNAV Guide for [SaaS](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/EditYourFirstReport) or [On Premise](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/EditYourFirstReport)
 
 
 > [Format string cheatsheet](http://www.cheat-sheets.org/saved-copy/msnet-formatting-strings.pdf)

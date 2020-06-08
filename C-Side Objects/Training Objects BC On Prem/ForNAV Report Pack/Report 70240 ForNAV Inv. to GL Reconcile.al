@@ -18,18 +18,18 @@ Report 70240 "ForNAV Inv. to G/L Reconcile"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Inv. to G/L Arguments")
+		DataItem(Args;"ForNAV Inv. to G/L Arguments")
 		{
 			DataItemTableView = sorting("To Date");
 			UseTemporary = true;
 			column(ReportForNavId_1000000000; 1000000000) {}
-			dataitem(Item;Item)
+			DataItem(Item;Item)
 			{
 				CalcFields = "Cost is Posted to G/L";
 				PrintOnlyIfDetail = true;
 				RequestFilterFields = "No.","Inventory Posting Group","Costing Method","Location Filter","Variant Filter";
 				column(ReportForNavId_1000000002; 1000000002) {}
-				dataitem(InvToGLBuffer;"ForNAV Inventory to G/L Buffer")
+				DataItem(InvToGLBuffer;"ForNAV Inventory to G/L Buffer")
 				{
 					CalcFields = "Pending Adj.";
 					DataItemTableView = sorting("Item No.","Variant Code","Location Code");

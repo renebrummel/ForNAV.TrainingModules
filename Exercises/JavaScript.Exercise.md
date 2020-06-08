@@ -7,7 +7,7 @@ Advanced option
 * Sort the array by date, the most recent comment first
 * Display them underneath the VAT Amount Line
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 <!-- ToDO -> edit links -->
 
@@ -98,6 +98,6 @@ Online Learning
 
 Videos
 * [Learn JavaScript in one video](https://www.youtube.com/watch?v=fju9ii8YsGs)
-* [Change fonts/color/showoutput with JavaScript](https://www.youtube.com/watch?v=T-GY6ObU82c&list=PLtpjnuA-F0c_XQ-y7kGZKAWCXeop7F7Wa&index=11)
+* [Change fonts/color/show output with JavaScript](https://www.youtube.com/watch?v=T-GY6ObU82c&list=PLtpjnuA-F0c_XQ-y7kGZKAWCXeop7F7Wa&index=11)
 * [Working with JavaScript in the ForNAV Designer](https://www.youtube.com/watch?v=4cwbxUq-tc8&t=0s&index=11&list=PLtpjnuA-F0c9bZf3emvhz86-S1uX0a0II)
 

@@ -17,7 +17,7 @@ Report 89055 "A05 100 Top Customer Overview(88055)"
 
 	dataset
 	{
-		dataitem(List;"100 Top Customer Overview")
+		DataItem(List;"100 Top Customer Overview")
 		{
 			DataItemTableView = sorting("Sales (LCY)") order(descending);
 			UseTemporary = true;

@@ -7,7 +7,7 @@ Report 56000 "ForNAV VAT Order Conf Track"
 
 	dataset
 	{
-		dataitem(Header;"Sales Header")
+		DataItem(Header;"Sales Header")
 		{
 			DataItemTableView = sorting("No.") where("Document Type" = const (Order));
 			CalcFields = "Amount Including VAT", Amount;
@@ -18,14 +18,14 @@ Report 56000 "ForNAV VAT Order Conf Track"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Line")
+			DataItem(Line;"Sales Line")
 			{
 				DataItemTableView = sorting("Document No.", "Line No.");
 				DataItemLinkReference = Header;
 				DataItemLink = "Document No." = FIELD("No."), "Document Type" = FIELD("Document Type");
 				column(ReportForNavId_3; 3) {}
 				column(ReportForNav_Line; ReportForNavWriteDataItem('Line',Line)) {}
-				dataitem(TrackingSpecification;"Tracking Specification")
+				DataItem(TrackingSpecification;"Tracking Specification")
 				{
 					UseTemporary = true;
 					column(ReportForNavId_1000000003; 1000000003) {}
@@ -37,7 +37,7 @@ Report 56000 "ForNAV VAT Order Conf Track"
 				end;
 				
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier", "VAT Calculation Type", "Tax Group Code", "Use Tax", Positive);
 				UseTemporary = true;
@@ -50,7 +50,7 @@ Report 56000 "ForNAV VAT Order Conf Track"
 				end;
 				
 			}
-			dataitem(VATClause;"VAT Clause")
+			DataItem(VATClause;"VAT Clause")
 			{
 				DataItemTableView = sorting(Code);
 				UseTemporary = true;

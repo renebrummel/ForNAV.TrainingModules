@@ -1,5 +1,5 @@
 ### Exercise
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 <!-- ToDO -> edit links -->

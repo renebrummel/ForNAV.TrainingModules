@@ -19,24 +19,24 @@ Report 70250 "ForNAV Statement"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Statement Arguments")
+		DataItem(Args;"ForNAV Statement Arguments")
 		{
 			DataItemTableView = sorting("Start Date");
 			column(ReportForNavId_1000000001; 1000000001) {}
 		}
-		dataitem(Customer;Customer)
+		DataItem(Customer;Customer)
 		{
 			CalcFields = Balance;
 			PrintOnlyIfDetail = true;
 			RequestFilterFields = "No.";
 			column(ReportForNavId_2; 2) {}
-			dataitem(CurrencyLoop;Currency)
+			DataItem(CurrencyLoop;Currency)
 			{
 				DataItemTableView = sorting(Code);
 				PrintOnlyIfDetail = true;
 				UseTemporary = true;
 				column(ReportForNavId_6523; 6523) {}
-				dataitem("Cust. Ledger Entry";"Cust. Ledger Entry")
+				DataItem("Cust. Ledger Entry";"Cust. Ledger Entry")
 				{
 					CalcFields = "Remaining Amount","Original Amount";
 					DataItemTableView = sorting("Customer No.","Posting Date","Currency Code");
@@ -50,7 +50,7 @@ Report 70250 "ForNAV Statement"
 					end;
 					
 				}
-				dataitem(OverdueEntry;"Cust. Ledger Entry")
+				DataItem(OverdueEntry;"Cust. Ledger Entry")
 				{
 					CalcFields = "Original Amount","Remaining Amount";
 					DataItemLink = "Customer No."=field("No.");
@@ -99,7 +99,7 @@ Report 70250 "ForNAV Statement"
 				end;
 				
 			}
-			dataitem(AgingBuffer;"ForNAV Aging Buffer")
+			DataItem(AgingBuffer;"ForNAV Aging Buffer")
 			{
 				DataItemLink = "Account No."=field("No.");
 				DataItemTableView = sorting("Entry No.");

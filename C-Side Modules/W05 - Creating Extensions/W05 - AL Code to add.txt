@@ -1,18 +1,18 @@
-// Add this code to the end of the dataitem(Line; "Sales Line")
+// Add this code to the end of the DataItem(Line; "Sales Line")
                 trigger OnAfterGetRecord();
                 begin
                     GetTrackingSpecification();
                 end;
 
 // New code will look like this:
-            dataitem(Line; "Sales Line")
+            DataItem(Line; "Sales Line")
             {
                 DataItemTableView = sorting ("Document No.", "Line No.");
                 DataItemLinkReference = Header;
                 DataItemLink = "Document No." = FIELD ("No."), "Document Type" = FIELD ("Document Type");
                 column(ReportForNavId_3; 3) { }
                 column(ReportForNav_Line; ReportForNavWriteDataItem('Line', Line)) { }
-                dataitem(TrackingSpecification; "Tracking Specification")
+                DataItem(TrackingSpecification; "Tracking Specification")
                 {
                     UseTemporary = true;
                     column(ReportForNavId_1000000003; 1000000003) { }

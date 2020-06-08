@@ -9,7 +9,7 @@
   <dt><b>Training approach</b></dt>
   <dd>Demo, exercise, reflect on exercise</dd>
   <dt><b>Prerequisites</b></dt>
-  <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
+  <dd>All students have access to a Business Central instance (On Premise or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide</dd>
   <dt><b>Objective</b></dt>
@@ -17,7 +17,7 @@
 </dl>
 
 ## Pre Training
-Watch the video [Grouptotals Video](https://www.youtube.com/watch?v=yemM2uJmMS4)
+Watch the video [Group totals Video](https://www.youtube.com/watch?v=yemM2uJmMS4)
 
 ## Preparation
 Duration:
@@ -37,4 +37,4 @@ Duration:
 ## Reflection
 Duration:
 
-What would you use grouptotals for?
+What would you use group totals for?

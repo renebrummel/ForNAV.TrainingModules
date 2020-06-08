@@ -19,7 +19,7 @@ Report 70529 "ForNAV Sales Template"
 
 	dataset
 	{
-		dataitem(Header;"Sales Invoice Header")
+		DataItem(Header;"Sales Invoice Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.");
@@ -30,14 +30,14 @@ Report 70529 "ForNAV Sales Template"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Invoice Line")
+			DataItem(Line;"Sales Invoice Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;
 				DataItemTableView = sorting("Document No.","Line No.");
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier","VAT Calculation Type","Tax Group Code","Use Tax",Positive);
 				UseTemporary = true;
@@ -49,7 +49,7 @@ Report 70529 "ForNAV Sales Template"
 				end;
 				
 			}
-			dataitem(VATClause;"VAT Clause")
+			DataItem(VATClause;"VAT Clause")
 			{
 				DataItemTableView = sorting(Code);
 				UseTemporary = true;

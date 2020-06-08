@@ -9,7 +9,7 @@
   <dt><b>Training approach</b></dt>
   <dd>Demo, exercise, reflect on exercise</dd>
   <dt><b>Prerequisites</b></dt>
-  <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
+  <dd>All students have access to a Business Central instance (On Premise or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide</dd>
   <dt><b>Objective</b></dt>
@@ -25,7 +25,7 @@ Duration:
 > Demonstrate using the Customer List Report
 
 * Open the report in the designer
-* Add the "Sales Header" table with the "Sell To Customer No." as dataitem link. Filter "Document Type" on "Order"
+* Add the "Sales Header" table with the "Sell To Customer No." as DataItem link. Filter "Document Type" on "Order"
 * Add Header and body with the fields:
   * No
   * Doc Date

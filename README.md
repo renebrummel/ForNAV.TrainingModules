@@ -24,7 +24,7 @@ There are two ready made tracks. The classroom training ([No Code](/Modules/Clas
 
 ## Prerequisites
 
-All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. All students have the ForNAV designer installed in the same environment.
+All students have access to a Business Central instance (On Premise or SaaS) with the Cronus Database with a valid license. All students have the ForNAV designer installed in the same environment.
 
 # Copyright (c) 2020 ForNAV ApS - All Rights Reserved
 The intellectual work and technical concepts contained in this file are proprietary to ForNAV.

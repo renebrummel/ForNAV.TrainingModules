@@ -19,7 +19,7 @@ Report 70151 "ForNAV Tax Purchase Invoice"
 
 	dataset
 	{
-		dataitem(Header;"Purch. Inv. Header")
+		DataItem(Header;"Purch. Inv. Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.");
@@ -29,14 +29,14 @@ Report 70151 "ForNAV Tax Purchase Invoice"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Purch. Inv. Line")
+			DataItem(Line;"Purch. Inv. Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;
 				DataItemTableView = sorting("Document No.","Line No.");
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
+			DataItem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
 			{
 				DataItemTableView = sorting("Primary Key");
 				UseTemporary = true;

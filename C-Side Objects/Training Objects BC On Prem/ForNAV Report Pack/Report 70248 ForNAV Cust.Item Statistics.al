@@ -19,7 +19,7 @@ Report 70248 "ForNAV Cust./Item Statistics"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Cust./Item Stat. Args.")
+		DataItem(Args;"ForNAV Cust./Item Stat. Args.")
 		{
 			DataItemTableView = sorting("Print Details");
 			UseTemporary = true;
@@ -30,12 +30,12 @@ Report 70248 "ForNAV Cust./Item Statistics"
 			end;
 			
 		}
-		dataitem(Customer;Customer)
+		DataItem(Customer;Customer)
 		{
 			PrintOnlyIfDetail = true;
 			RequestFilterFields = "No.","Search Name","Customer Posting Group";
 			column(ReportForNavId_6836; 6836) {}
-			dataitem("Value Entry";"Value Entry")
+			DataItem("Value Entry";"Value Entry")
 			{
 				DataItemLink = "Source No."=field("No."),"Global Dimension 1 Code"=field("Global Dimension 1 Filter"),"Global Dimension 2 Code"=field("Global Dimension 2 Filter");
 				DataItemTableView = sorting("Source Type","Source No.","Item Ledger Entry Type","Item No.","Posting Date") where("Source Type"=const(Customer),"Item Ledger Entry Type"=const(Sale),"Expected Cost"=const(false));

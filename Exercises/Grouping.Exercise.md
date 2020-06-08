@@ -8,7 +8,7 @@ Using the sales invoice report do:
 Advanced exercise
 * Add a second group header and footer for the totals per No.
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
-> [Grouptotals Video](https://www.youtube.com/watch?v=yemM2uJmMS4)
+> [Group totals Video](https://www.youtube.com/watch?v=yemM2uJmMS4)
 <!-- ToDO -> edit links -->

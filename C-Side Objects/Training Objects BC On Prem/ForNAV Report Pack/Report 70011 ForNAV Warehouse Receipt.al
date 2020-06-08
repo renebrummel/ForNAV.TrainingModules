@@ -18,22 +18,22 @@ Report 70011 "ForNAV Warehouse Receipt"
 
 	dataset
 	{
-		dataitem(Header;"Warehouse Receipt Header")
+		DataItem(Header;"Warehouse Receipt Header")
 		{
 			RequestFilterFields = "No.","Location Code";
 			column(ReportForNavId_1000000000; 1000000000) {}
-			dataitem(Line;"Warehouse Receipt Line")
+			DataItem(Line;"Warehouse Receipt Line")
 			{
 				DataItemLink = "No."=field("No.");
 				DataItemTableView = sorting("No.","Bin Code");
 				column(ReportForNavId_1000000001; 1000000001) {}
-				dataitem(BOMComponent;"BOM Component")
+				DataItem(BOMComponent;"BOM Component")
 				{
 					DataItemLink = "Parent Item No."=field("Item No.");
 					DataItemTableView = sorting("Parent Item No.","Line No.");
 					column(ReportForNavId_1000000002; 1000000002) {}
 				}
-				dataitem(CommentLine;"Purch. Comment Line")
+				DataItem(CommentLine;"Purch. Comment Line")
 				{
 					DataItemLink = "No."=field("Source No."),"Document Line No."=field("Source Line No.");
 					DataItemTableView = sorting("Document Type","No.","Document Line No.","Line No.") where("Document Type"=const(Order));

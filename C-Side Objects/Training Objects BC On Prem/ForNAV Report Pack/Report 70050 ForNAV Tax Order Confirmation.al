@@ -19,7 +19,7 @@ Report 70050 "ForNAV Tax Order Confirmation"
 
 	dataset
 	{
-		dataitem(Header;"Sales Header")
+		DataItem(Header;"Sales Header")
 		{
 			CalcFields = "Amount Including VAT",Amount;
 			DataItemTableView = sorting("No.") where("Document Type"=const(Order));
@@ -29,14 +29,14 @@ Report 70050 "ForNAV Tax Order Confirmation"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Line")
+			DataItem(Line;"Sales Line")
 			{
 				DataItemLink = "Document No."=field("No."),"Document Type"=field("Document Type");
 				DataItemLinkReference = Header;
 				DataItemTableView = sorting("Document No.","Line No.");
 				column(ReportForNavId_3; 3) {}
 			}
-			dataitem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
+			DataItem(SalesTaxBuffer;"ForNAV Sales Tax Buffer")
 			{
 				DataItemTableView = sorting("Primary Key");
 				UseTemporary = true;

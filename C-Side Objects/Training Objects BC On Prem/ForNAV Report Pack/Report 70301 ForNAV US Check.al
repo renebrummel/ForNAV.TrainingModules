@@ -19,12 +19,12 @@ Report 70301 "ForNAV US Check"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Check Arguments")
+		DataItem(Args;"ForNAV Check Arguments")
 		{
 			DataItemTableView = sorting("Primary Key");
 			UseTemporary = true;
 			column(ReportForNavId_1000000002; 1000000002) {}
-			dataitem(VoidGenJnlLine;"Gen. Journal Line")
+			DataItem(VoidGenJnlLine;"Gen. Journal Line")
 			{
 				DataItemTableView = sorting("Journal Template Name","Journal Batch Name","Posting Date","Document No.");
 				RequestFilterFields = "Journal Template Name","Journal Batch Name","Posting Date";
@@ -45,12 +45,12 @@ Report 70301 "ForNAV US Check"
 				end;
 				
 			}
-			dataitem(GenJnlLnBuffer;"Gen. Journal Line")
+			DataItem(GenJnlLnBuffer;"Gen. Journal Line")
 			{
 				DataItemTableView = sorting("Journal Template Name","Journal Batch Name","Line No.");
 				UseTemporary = true;
 				column(ReportForNavId_1000000001; 1000000001) {}
-				dataitem(Model;"ForNAV Check Model")
+				DataItem(Model;"ForNAV Check Model")
 				{
 					DataItemTableView = sorting("Page No.","Part No.","Line No.");
 					UseTemporary = true;

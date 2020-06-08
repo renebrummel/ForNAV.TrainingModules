@@ -19,12 +19,12 @@ Report 70206 "ForNAV Trial Balance"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Trial Balance Args.")
+		DataItem(Args;"ForNAV Trial Balance Args.")
 		{
 			DataItemTableView = sorting("Show by");
 			UseTemporary = true;
 			column(ReportForNavId_1000000001; 1000000001) {}
-			dataitem("G/L Account";"G/L Account")
+			DataItem("G/L Account";"G/L Account")
 			{
 				DataItemTableView = sorting("No.");
 				PrintOnlyIfDetail = true;
@@ -36,7 +36,7 @@ Report 70206 "ForNAV Trial Balance"
 				end;
 				
 			}
-			dataitem(TrialBalance;"ForNAV Trial Balance")
+			DataItem(TrialBalance;"ForNAV Trial Balance")
 			{
 				DataItemTableView = sorting("G/L Account No.");
 				UseTemporary = true;

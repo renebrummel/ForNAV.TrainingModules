@@ -9,7 +9,7 @@
   <dt><b>Training approach</b></dt>
   <dd>Demo, exercise, reflect on exercise</dd>
   <dt><b>Prerequisites</b></dt>
-  <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
+  <dd>All students have access to a Business Central instance (On Premise or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide<br>Demo Extension</dd>
   <dt><b>Objective</b></dt>
@@ -28,7 +28,7 @@ Demo
 * Unpack extension
 * Open in VS Code, fix errors and other things
 * Explain the ForNAV Report AL files and the Layout files
-* Explain necesary dependencies 
+* Explain necessary dependencies 
 * Create new header line report
 * Save as AL File in the extension
 * Publish

@@ -19,7 +19,7 @@ Report 70215 "ForNAV Salesperson-Commission"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Salesperson-Comm. Args.")
+		DataItem(Args;"ForNAV Salesperson-Comm. Args.")
 		{
 			DataItemTableView = sorting("New Page per Person");
 			UseTemporary = true;
@@ -30,13 +30,13 @@ Report 70215 "ForNAV Salesperson-Commission"
 			end;
 			
 		}
-		dataitem(SalespersonPurchaser;"Salesperson/Purchaser")
+		DataItem(SalespersonPurchaser;"Salesperson/Purchaser")
 		{
 			DataItemTableView = sorting(Code);
 			PrintOnlyIfDetail = true;
 			RequestFilterFields = "Code";
 			column(ReportForNavId_3065; 3065) {}
-			dataitem(CustLedgerEntry;"Cust. Ledger Entry")
+			DataItem(CustLedgerEntry;"Cust. Ledger Entry")
 			{
 				DataItemLink = "Salesperson Code"=field(Code);
 				DataItemTableView = sorting("Salesperson Code","Posting Date") where("Document Type"=filter(Invoice|"Credit Memo"));

@@ -19,13 +19,13 @@ Report 70235 "ForNAV Purchase Statistics"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Statistics Args.")
+		DataItem(Args;"ForNAV Statistics Args.")
 		{
 			DataItemTableView = sorting("Currency Code");
 			PrintOnlyIfDetail = true;
 			UseTemporary = true;
 			column(ReportForNavId_4146; 4146) {}
-			dataitem(PurchInvoiceHeader;"Purch. Inv. Header")
+			DataItem(PurchInvoiceHeader;"Purch. Inv. Header")
 			{
 				CalcFields = Amount,"Amount Including VAT";
 				DataItemLink = "Currency Code"=field("Currency Code");
@@ -50,7 +50,7 @@ Report 70235 "ForNAV Purchase Statistics"
 				end;
 				
 			}
-			dataitem(PurchCrMemoHeader;"Purch. Cr. Memo Hdr.")
+			DataItem(PurchCrMemoHeader;"Purch. Cr. Memo Hdr.")
 			{
 				CalcFields = Amount,"Amount Including VAT";
 				DataItemLink = "Currency Code"=field("Currency Code");

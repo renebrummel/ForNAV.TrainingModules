@@ -18,7 +18,7 @@ Report 70270 "ForNAV Item Variants"
 
 	dataset
 	{
-		dataitem(Item;Item)
+		DataItem(Item;Item)
 		{
 			DataItemTableView = sorting("Inventory Posting Group");
 			column(ReportForNavId_1000000000; 1000000000) {}

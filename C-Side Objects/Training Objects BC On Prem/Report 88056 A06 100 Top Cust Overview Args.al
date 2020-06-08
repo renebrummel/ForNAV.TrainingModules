@@ -17,11 +17,11 @@ Report 89056 "A06 100 Top Cust Overview Args(88056)"
 
 	dataset
 	{
-		dataitem(Args;"100 Top Customer Overview Args")
+		DataItem(Args;"100 Top Customer Overview Args")
 		{
 			UseTemporary = true;
 			column(ReportForNavId_3; 3) {}
-			dataitem(List;"100 Top Customer Overview")
+			DataItem(List;"100 Top Customer Overview")
 			{
 				DataItemTableView = sorting("Sales (LCY)") order(descending);
 				UseTemporary = true;

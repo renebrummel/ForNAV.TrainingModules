@@ -9,7 +9,7 @@
   <dt><b>Training approach</b></dt>
   <dd></dd>
   <dt><b>Prerequisites</b></dt>
-  <dd>All students have access to a Business Central instance (OnPrem or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
+  <dd>All students have access to a Business Central instance (On Premise or SaaS) with the Cronus Database with a valid license. <br> All students have the ForNAV designer installed in the same environment.</dd>
   <dt><b>Training materials</b></dt>
   <dd>ForNAV Guide</dd>
   <dt><b>Objective</b></dt>
@@ -24,7 +24,7 @@ Duration:
 
 Run through the editing of ForNAV reports from the web client. Be sure to cover:
 * ForNAV Setup
-* Finding the ForNAV reports in the Web CLient (ForNAV Reports and ForNAV setup)
+* Finding the ForNAV reports in the Web Client (ForNAV Reports and ForNAV setup)
 * Running the report and preview
 * Opening the designer
 * Preview from the designer
@@ -32,7 +32,7 @@ Run through the editing of ForNAV reports from the web client. Be sure to cover:
 * Preview again
 * Saving the report
 * Running the finished report
-* Open reports and layouts from teh ForNAV designer
+* Open reports and layouts from the ForNAV designer
 
 ## Execution
 Duration:

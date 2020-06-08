@@ -18,12 +18,12 @@ Report 70242 "ForNAV Inventory Valuation"
 
 	dataset
 	{
-		dataitem(Args;"ForNAV Inv. Valuation Args.")
+		DataItem(Args;"ForNAV Inv. Valuation Args.")
 		{
 			DataItemTableView = sorting("Starting Date");
 			UseTemporary = true;
 			column(ReportForNavId_42; 42) {}
-			dataitem(Item;Item)
+			DataItem(Item;Item)
 			{
 				DataItemTableView = sorting("Inventory Posting Group") where(Type=const(Inventory));
 				RequestFilterFields = "No.","Inventory Posting Group","Statistics Group";
@@ -123,7 +123,7 @@ Report 70242 "ForNAV Inventory Valuation"
 				end;
 				
 			}
-			dataitem(InventoryValuation;"ForNAV Inventory Valuation")
+			DataItem(InventoryValuation;"ForNAV Inventory Valuation")
 			{
 				DataItemTableView = sorting("Inventory Posting Group");
 				UseTemporary = true;

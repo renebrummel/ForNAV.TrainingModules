@@ -13,7 +13,7 @@ Report 89001 "ForNAV W02 Vendor Top 10"
 
     dataset
     {
-        dataitem(List; Vendor)
+        DataItem(List; Vendor)
         {
             DataItemTableView = sorting ("Balance (LCY)") order(Descending);
             CalcFields = "Balance (LCY)", "Purchases (LCY)";

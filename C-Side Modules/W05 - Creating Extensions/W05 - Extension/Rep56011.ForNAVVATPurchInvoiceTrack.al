@@ -7,7 +7,7 @@ Report 56011 "ForNAV VAT Purch Invoice Track"
 
 	dataset
 	{
-		dataitem(Header;"Purch. Inv. Header")
+		DataItem(Header;"Purch. Inv. Header")
 		{
 			DataItemTableView = sorting("No.");
 			CalcFields = "Amount Including VAT", Amount;
@@ -18,14 +18,14 @@ Report 56011 "ForNAV VAT Purch Invoice Track"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Purch. Inv. Line")
+			DataItem(Line;"Purch. Inv. Line")
 			{
 				DataItemTableView = sorting("Document No.", "Line No.");
 				DataItemLinkReference = Header;
 				DataItemLink = "Document No." = FIELD("No.");
 				column(ReportForNavId_3; 3) {}
 				column(ReportForNav_Line; ReportForNavWriteDataItem('Line',Line)) {}
-				dataitem(TrackingSpecification;"Tracking Specification")
+				DataItem(TrackingSpecification;"Tracking Specification")
 				{
 					UseTemporary = true;
 					column(ReportForNavId_1000000003; 1000000003) {}
@@ -37,7 +37,7 @@ Report 56011 "ForNAV VAT Purch Invoice Track"
 				end;
 				
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier", "VAT Calculation Type", "Tax Group Code", "Use Tax", Positive);
 				UseTemporary = true;
@@ -50,7 +50,7 @@ Report 56011 "ForNAV VAT Purch Invoice Track"
 				end;
 				
 			}
-			dataitem(VATClause;"VAT Clause")
+			DataItem(VATClause;"VAT Clause")
 			{
 				DataItemTableView = sorting(Code);
 				UseTemporary = true;

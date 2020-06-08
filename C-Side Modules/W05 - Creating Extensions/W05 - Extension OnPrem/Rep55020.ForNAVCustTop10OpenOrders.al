@@ -25,11 +25,11 @@ Report 55020 "ForNAV Cust Top 10 Open Orders"
 
 	dataset
 	{
-		dataitem(List;Customer)
+		DataItem(List;Customer)
 		{
 			CalcFields = "Balance (LCY)", "Sales (LCY)";
 			column(ReportForNavId_2; 2) {}
-			dataitem("Sales Header";"Sales Header")
+			DataItem("Sales Header";"Sales Header")
 			{
 				DataItemTableView = sorting("Document Type", "No.") where("Document Type" = CONST (Order));
 				DataItemLink = "Sell-to Customer No." = FIELD("No.");

@@ -18,12 +18,12 @@ Report 70207 "ForNAV Reconcile A/P to G/L"
 
 	dataset
 	{
-		dataitem(Integer;Integer)
+		DataItem(Integer;Integer)
 		{
 			DataItemTableView = sorting(Number) where(Number=filter(1));
 			MaxIteration = 1;
 			column(ReportForNavId_1000000002; 1000000002) {}
-			dataitem("Purchase Line";"Purchase Line")
+			DataItem("Purchase Line";"Purchase Line")
 			{
 				DataItemTableView = where("Document Type"=const(Order));
 				RequestFilterFields = "Document No.","Buy-from Vendor No.",Type,"No.","Location Code","Posting Group","Shortcut Dimension 1 Code","Shortcut Dimension 2 Code";
@@ -58,7 +58,7 @@ Report 70207 "ForNAV Reconcile A/P to G/L"
 				end;
 				
 			}
-			dataitem(GLBuffer;"ForNAV Reconcile AP to GL Buf.")
+			DataItem(GLBuffer;"ForNAV Reconcile AP to GL Buf.")
 			{
 				DataItemTableView = sorting("Account No.");
 				UseTemporary = true;

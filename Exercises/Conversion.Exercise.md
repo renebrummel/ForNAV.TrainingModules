@@ -6,7 +6,7 @@
 
 [The reports to convert](https://github.com/renebrummel/ForNAV.TrainingModules/tree/master/Modules/22%20Conversion/Reports%20to%20convert)
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 > [The PowerShell commandlet](https://www.fornav.com/knowledge-base/powershell-cmdlet/)
 

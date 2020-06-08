@@ -18,16 +18,16 @@ Report 70253 "ForNAV Reminder Test"
 
 	dataset
 	{
-		dataitem(Header;"Reminder Header")
+		DataItem(Header;"Reminder Header")
 		{
 			column(ReportForNavId_1000000000; 1000000000) {}
-			dataitem(Line;"Reminder Line")
+			DataItem(Line;"Reminder Line")
 			{
 				DataItemLink = "Reminder No."=field("No.");
 				DataItemTableView = sorting("Reminder No.","Line No.");
 				column(ReportForNavId_1000000001; 1000000001) {}
 			}
-			dataitem(VATAmountLine;"VAT Amount Line")
+			DataItem(VATAmountLine;"VAT Amount Line")
 			{
 				DataItemTableView = sorting("VAT Identifier","VAT Calculation Type","Tax Group Code","Use Tax",Positive);
 				UseTemporary = true;

@@ -13,13 +13,13 @@ Report 89010 "ForNAV W04 JavaScript"
 
     dataset
     {
-        dataitem(Header; "Sales Invoice Header")
+        DataItem(Header; "Sales Invoice Header")
         {
             CalcFields = Amount, "Amount Including VAT";
             RequestFilterFields = "No.", "Sell-to Customer No.";
             column(ReportForNavId_2; 2) { }
             column(ReportForNav_Header; ReportForNavWriteDataItem('Header', Header)) { }
-            dataitem(Line; "Sales Invoice Line")
+            DataItem(Line; "Sales Invoice Line")
             {
                 DataItemTableView = sorting ("Document No.", Type);
                 DataItemLinkReference = Header;
@@ -27,14 +27,14 @@ Report 89010 "ForNAV W04 JavaScript"
                 column(ReportForNavId_3; 3) { }
                 column(ReportForNav_Line; ReportForNavWriteDataItem('Line', Line)) { }
             }
-            dataitem(VATAmountLine; "VAT Amount Line")
+            DataItem(VATAmountLine; "VAT Amount Line")
             {
                 DataItemTableView = sorting ("VAT Identifier", "VAT Calculation Type", "Tax Group Code", "Use Tax", Positive);
                 UseTemporary = true;
                 column(ReportForNavId_4; 4) { }
                 column(ReportForNav_VATAmountLine; ReportForNavWriteDataItem('VATAmountLine', VATAmountLine)) { }
             }
-            dataitem(VATClause; "VAT Clause")
+            DataItem(VATClause; "VAT Clause")
             {
                 UseTemporary = true;
                 column(ReportForNavId_5; 5) { }

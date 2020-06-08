@@ -20,7 +20,7 @@ Report 56002 "ForNAV Sales Ship Track"
 
 	dataset
 	{
-		dataitem(Header;"Sales Shipment Header")
+		DataItem(Header;"Sales Shipment Header")
 		{
 			DataItemTableView = sorting("No.");
 			RequestFilterFields = "No.", "Posting Date";
@@ -29,13 +29,13 @@ Report 56002 "ForNAV Sales Ship Track"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Shipment Line")
+			DataItem(Line;"Sales Shipment Line")
 			{
 				DataItemTableView = sorting("Document No.", "Line No.");
 				DataItemLinkReference = Header;
 				DataItemLink = "Document No." = FIELD("No.");
 				column(ReportForNavId_3; 3) {}
-				dataitem(TrackingSpecification;"Tracking Specification")
+				DataItem(TrackingSpecification;"Tracking Specification")
 				{
 					UseTemporary = true;
 					column(ReportForNavId_4; 4) {}

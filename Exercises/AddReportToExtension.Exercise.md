@@ -9,7 +9,7 @@
 Advanced exercise
 * Download the Customer List report extension you created earlier and add that report to your new extension
 
-Use the ForNAV Guide for [SaaS]() or [OnPrem]()
+Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 [Demo extension with examples](https://github.com/renebrummel/ForNAV.TrainingModules/tree/master/Modules/20%20Add%20Reports%20To%20An%20Extension/AddReportsToExtensionDemo)
 <!-- ToDO -> edit links -->
@@ -28,11 +28,11 @@ In order to use dll files in your extension you need to tell Visual Studio Code 
 
 ### Enable the use of dlls in your extension
 
-In order to use dlls in your extension the target property in the app.json needs to be set to OnPrem
+In order to use dlls in your extension the target property in the app.json needs to be set to On Premise
 
 
 ```json
-  "target": "OnPrem"
+  "target": "On Premise"
 ```
 
 > This property can be different depending on the Business Central version you use.

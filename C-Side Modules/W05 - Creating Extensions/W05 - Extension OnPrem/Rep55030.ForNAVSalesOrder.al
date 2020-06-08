@@ -25,18 +25,18 @@ Report 55030 "ForNAV Sales Order"
 
 	dataset
 	{
-		dataitem(Header;"Sales Header")
+		DataItem(Header;"Sales Header")
 		{
 			DataItemTableView = sorting("Document Type", "No.") where("Document Type" = CONST (Order));
 			CalcFields = Amount;
 			RequestFilterFields = "No.";
 			column(ReportForNavId_2; 2) {}
-			dataitem(Line;"Sales Line")
+			DataItem(Line;"Sales Line")
 			{
 				DataItemTableView = sorting("Document Type", "Document No.", "Line No.");
 				DataItemLink = "Document No." = FIELD("No."), "Document Type" = FIELD("Document Type");
 				column(ReportForNavId_3; 3) {}
-				dataitem("Tracking Specification";"Tracking Specification")
+				DataItem("Tracking Specification";"Tracking Specification")
 				{
 					UseTemporary = true;
 					column(ReportForNavId_4; 4) {}

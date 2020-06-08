@@ -19,7 +19,7 @@ Report 70003 "ForNAV Sales Shipment"
 
 	dataset
 	{
-		dataitem(Header;"Sales Shipment Header")
+		DataItem(Header;"Sales Shipment Header")
 		{
 			DataItemTableView = sorting("No.");
 			RequestFilterFields = "No.","Posting Date";
@@ -28,7 +28,7 @@ Report 70003 "ForNAV Sales Shipment"
 			{
 				IncludeCaption = false;
 			}
-			dataitem(Line;"Sales Shipment Line")
+			DataItem(Line;"Sales Shipment Line")
 			{
 				DataItemLink = "Document No."=field("No.");
 				DataItemLinkReference = Header;

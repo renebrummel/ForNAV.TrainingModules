@@ -17,7 +17,7 @@ Report 89001 "B02 Vendor Top 10(88001)"
 
 	dataset
 	{
-		dataitem(List;Vendor)
+		DataItem(List;Vendor)
 		{
 			CalcFields = "Balance (LCY)";
 			DataItemTableView = sorting("Balance (LCY)") order(descending);

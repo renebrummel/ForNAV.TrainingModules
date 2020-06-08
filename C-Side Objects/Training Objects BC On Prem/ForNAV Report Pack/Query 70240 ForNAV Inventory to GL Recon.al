@@ -5,7 +5,7 @@ Query 70240 "ForNAV Inventory to G/L Recon."
 
     elements
     {
-        dataitem(Item;Item)
+        DataItem(Item;Item)
         {
             column(No;"No.")
             {
@@ -13,7 +13,7 @@ Query 70240 "ForNAV Inventory to G/L Recon."
             filter(Date_Filter;"Date Filter")
             {
             }
-            dataitem(Value_Entry;"Value Entry")
+            DataItem(Value_Entry;"Value Entry")
             {
                 DataItemLink = "Item No."=Item."No.","Posting Date"=Item."Date Filter","Location Code"=Item."Location Filter","Variant Code"=Item."Variant Filter";
                 column(Variant_Code;"Variant Code")
