@@ -1,9 +1,6 @@
-
-[filename](../../Exercises/DynamicChangeFonts.Exercise.md ':include')
-
-
 ### JavaScript Exercise
 
+* Do the exercises from [Dynamically change fonts and colors](/Exercises/DynamicChangeFonts.Exercise.md)
 * Get the sales comment lines for an invoice header and display them on an automatically growing header section
 
 Advanced option
