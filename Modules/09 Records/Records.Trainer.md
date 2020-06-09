@@ -28,7 +28,7 @@ Duration:
 * Explain Record.Get() and CalcFields
 * Add the Item table. Link to the Line.No
 * Explain filters
-* Create a new body section and add these fiels with captions
+* Create a new body section and add these fields with captions
   * Item.NetWeight
   * Item.FieldLookups.ItemCategoryDescription
   * Item.FieldLookups.BaseUnitofMeasureDescription

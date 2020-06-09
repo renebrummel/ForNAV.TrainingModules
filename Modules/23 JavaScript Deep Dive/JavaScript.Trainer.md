@@ -34,10 +34,6 @@ What are we going to do
 ## Execution
 Duration:
 
-[filename](../../Exercises/DynamicChangeFonts.Exercise.md ':include')
-
-
-
 [filename](../../Exercises/JavaScript.Exercise.md ':include')
 
 ## Reflection

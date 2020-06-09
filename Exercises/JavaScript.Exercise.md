@@ -1,10 +1,13 @@
+
+[filename](../../Exercises/DynamicChangeFonts.Exercise.md ':include')
+
+
 ### JavaScript Exercise
 
 * Get the sales comment lines for an invoice header and display them on an automatically growing header section
 
 Advanced option
 * Get an array of Sales Invoice Line comments
-* Sort the array by date, the most recent comment first
 * Display them underneath the VAT Amount Line
 
 Use the ForNAV Guide for [SaaS]() or [On Premise]()
@@ -33,12 +36,14 @@ function GetComments(headerNo) {
   return comments;
 }
 ```
+> The .Next() function cannot be used in Business Central cloud 
 
 **Get comment lines as an array**
 
 Add this to the Header OnAfterGetRecord
 ```javascript
 var comments = [];
+
 function GetComments(headerNo, lineNo) {
   var _comments = [];
   var _comment;
@@ -58,14 +63,29 @@ function GetComments(headerNo, lineNo) {
   }
   return _comments;
 }
+
+function ParseComments(_comments) {
+  var _parsedComment, i;
+  _parsedComment = '';
+
+  for (i = 0; i < _comments.length; i++) {
+    _parsedComment += _comments[i].lineNo + ' ' + _comments[i].date + ' ' + _comments[i].comment + '\n ';
+  }
+  return _parsedComment;
+}
 ```
+> The .Next() function cannot be used in Business Central cloud 
 
 Add this to the Line.OnAfterGetRecord
 ```javascript
 comments.push.apply(comments, GetComments(Line.DocumentNo, Line.LineNo));
 ```
 
+Add a new DataItem, set the source table as Integer and set MaxIteration on 1. Add a Body section with a Text control and add this as the source expression
 
+```javascript
+ParseComments(comments);
+```
 
 ### Business Central functions in JavaScript
 
