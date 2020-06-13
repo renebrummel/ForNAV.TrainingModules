@@ -14,10 +14,10 @@ The No-Code track consists of two three hour online sessions and a one hour ques
   * ForNAV Language module
 * Session 2
   * Dynamic change of fonts, colors, and show output
-  * Adding data from other tables
+  * Related tables
   * Totals and transheaders and -footers
   * Add DataItems
-  * Groupheaders and -footers
+  * Group headers and footers
   * Create new reports
 * Session 3
   * Recap and last questions
@@ -33,7 +33,7 @@ All training includes:
   * How To guides
 
 Prerequisites
-* Have access to your own Business Central Sandbox, On Prem, or Docker installation (minimum BC14)
+* Have access to your own Business Central Sandbox, On Premise, or Docker installation (minimum BC14)
 
 ## Training outline
 
@@ -69,7 +69,7 @@ Pre Training
 * Totals and transheaders and -footers
   * Exercise
 * Add DataItems
-* Groupheaders and -footers
+* Group headers and footers
   * Exercise
 * Create new reports
 
@@ -83,4 +83,4 @@ Pre Training
 * Questions from last webinar
 
 Closing the series
-Questions, last tips and tricks, etc
+Questions, last tips and tricks, etc.

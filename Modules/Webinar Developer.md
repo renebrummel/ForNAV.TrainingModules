@@ -69,7 +69,7 @@ Pre Training
 * Totals and transheaders and -footers
   * Exercise
 * Add DataItems
-* Groupheaders and -footers
+* Group headers and footers
   * Exercise
 * Conversion
 * JavaScript Deep Dive
@@ -84,4 +84,4 @@ Pre Training
 * Questions from last webinar
 
 Closing the series
-Questions, last tips and tricks, etc
+Questions, last tips and tricks, etc.
