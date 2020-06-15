@@ -22,25 +22,12 @@ Watch the video [How to add fields from an extension to a ForNAV report](https:/
 ## Preparation
 Duration:
 
-Run through the editing of ForNAV reports from the web client. Be sure to cover:
-* ForNAV Setup
-* Finding the ForNAV reports in the Web Client (ForNAV Reports and ForNAV setup)
-* Running the report and preview
-* Opening the designer
-* Preview from the designer
-* Adding a field
-* Preview again
-* Saving the report
-* Running the finished report
-* Open reports and layouts from the ForNAV designer
-
 ### Video Script
 After installing and setting up ForNAV we can start editing reports. We can edit reports directly from Business Central.
 
 DEMO
 
 <I>Run through the editing of ForNAV reports from the web client. Be sure to cover:
-* ForNAV Setup
 * Finding the ForNAV reports in the Web Client (ForNAV Reports and ForNAV setup)
 * Running the report and preview
 * Opening the designer

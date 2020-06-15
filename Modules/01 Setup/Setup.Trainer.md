@@ -64,7 +64,7 @@ Once we have done this we are ready to work with ForNAV.
 
 **On Premise**
 
-The installation of ForNAV cloud starts with the installation of the ForNAV Service Add In on your Business Central Service tiers. This will install the dll that ForNAV reports needs to render the layouts.
+The installation of ForNAV On Premise starts with the installation of the ForNAV Service Add In on your Business Central Service tiers. This will install the dll that ForNAV reports needs to render the layouts.
 
 DEMO
 
@@ -87,7 +87,7 @@ Once we have done this we are ready to work with ForNAV.
 
 **Setup of the ForNAV Customizable Report Pack**
 
-After installing the ForNAV Customizable Report Pack you can set it up so the ForNAV reports get added to your report selection, and add your logo, payment terms, etc.
+After installing the ForNAV Customizable Report Pack you can set it up so the ForNAV reports get added to your report selection, and add your logo, payment note, etc.
 
 DEMO
 
