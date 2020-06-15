@@ -22,9 +22,29 @@ Duration: -
 Download and install the ForNAV designer from the ForNAV website.
 This is a pretraining exercise. Email instructions to participants before training.
 
-<!-- Add video -->
+### Email
+Hello, thank you for joining the ForNAV training. To make sure we can start smoothly please prepare these things.
+*	Download and install the ForNAV designer version 5.2.0.1917
+*	Create a personal Sandbox/On Premise/Docker installation of Business Central 15/16. This needs a license that has the ForNAV granule added to it
+*	Setup the ForNAV designer
+*	Download and install the ForNAV Customizable Report Pack
+*	If you have not done so already please install Visual Studio Code
+
+Detailed instructions on how to do this are here: [SaaS](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/) or [On Premise](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/)
+
+If you have any questions on this setup or about the training in general please let me know.
+
+
 ### Video script
-Hi and welcome to this ForNAV training. We will start the training with the installation and setup of Reports ForNAV. The installation and Setup of ForNAV comes in two types, Cloud and On Premise. Please use the setup that is suitable for your installation type.
+Hi and welcome to this Reports ForNAV training. We will start the training with the installation and setup of Reports ForNAV. The installation and Setup of ForNAV comes in two types, Cloud and On Premise. Please use the setup that is suitable for your installation type. Finally we will discuss the setup of the Customizable Report Pack. This is the same for both installation types.
+
+**ForNAV Designer**
+
+When we want to edit and create ForNAV reports we need to install the ForNAV Designer. You can download the latest version from the ForNAV website.
+
+DEMO
+
+*Install the ForNAV Designer.*
 
 **Cloud**
 
@@ -34,13 +54,7 @@ DEMO
 
 *Using a new sandbox Install the Customizable Report Pack from the Marketplace. Show which extensions are installed.*
 
-Once we have installed the Customizable report pack we can download and install the ForNAV Designer
-
-DEMO
-
-*Install the ForNAV Designer.*
-
-When we have installed the ForNAV Designer we need to set it up correctly. We need to connect the ForNAV Designer to the Business Central tenant so it can read table and field information, load and save reports, and manage extensions.
+The next step is to connect the ForNAV Designer to the Business Central tenant so it can read table and field information, load and save reports, and manage extensions.
 
 DEMO
 
@@ -50,14 +64,13 @@ Once we have done this we are ready to work with ForNAV.
 
 **On Premise**
 
-The installation of ForNAV cloud starts with the installation of the ForNAV Designer. This will install everything you need to run, edit, and create ForNAV reports. You need to install the ForNAV Designer on the system where you plan to design reports. On every service tier you plan to use you need to install the ForNAV Service add in.
+The installation of ForNAV cloud starts with the installation of the ForNAV Service Add In on your Business Central Service tiers. This will install the dll that ForNAV reports needs to render the layouts.
 
 DEMO
 
-*Install the ForNAV Designer.*
+*Install the ForNAV Designer Service Add In.*
 
-
-When we have installed the ForNAV Designer we need to set it up correctly. We need to connect the ForNAV Designer to the Business Central service tier so it can read table and field information, load and save reports, and manage extensions.
+The next step is to connect the ForNAV Designer to the Business Central service tier so it can read table and field information, load and save reports, and manage extensions. For this we need to ensure that the SOAP, OData, API, and developer ports are open.
 
 DEMO
 
@@ -79,7 +92,6 @@ After installing the ForNAV Customizable Report Pack you can set it up so the Fo
 DEMO
 
 *Wizard, ForNAV Setup, ForNAV Reports, My Reports.*
-<!-- /Add Video -->
 
 > https://www.fornav.com/download/
 
