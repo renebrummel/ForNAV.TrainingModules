@@ -5,21 +5,21 @@ The ForNAV webinar series consists of a functional and an advanced developer tra
 The developer track consists of these subjects
 
 * Session 1
-  * Setup
-  * Designer Deep Dive
-  * Create new reports
-  * Add ForNAV reports to your own extension
-  * The ForNAV API
-  * Templates
-  * Custom report layouts
+  * [Setup](Modules/01%20Setup/Setup.Trainer.md)
+  * [Designer deep dive](Modules/03%20Designer%20deep%20dive/DesignerDeepDive.Trainer.md)
+  * [Create new reports](/Modules/13%20Create%20New%20Report/CreateNewReport.Trainer.md)
+  * [Add reports to an extension](/Modules/20%20Add%20Reports%20To%20An%20Extension/AddReportsToExtension.Trainer.md)
+  * [ForNAV API](/Modules/21%20API/API.Trainer.md)
+  * [Templates](Modules/05%20Templates/Templates.Trainer.md)
+  * [Custom Report Layouts](Modules/04%20Custom%20Report%20Layouts/CustomReportLayout.Trainer.md)
 * Session 2
-  * ForNAV Language module
-  * Adding data from other tables
-  * Totals and transport totals
-  * Add DataItems
-  * Group headers and footers
-  * Conversion
-  * JavaScript Deep Dive
+  * [Language Module](/Modules/07%20Language/Language.Trainer.md)
+  * [Records](/Modules/09%20Records/Records.Trainer.md)
+  * [Transport totals](/Modules/10%20Transport/Transport.Trainer.md)
+  * [DataItems](/Modules/11%20DataItems/DataItems.Trainer.md)
+  * [Grouping](/Modules/12%20Grouping/Grouping.Trainer.md)
+  * [Conversion](/Modules/22%20Conversion/Conversion.Trainer.md)
+  * [JavaScript Deep Dive](/Modules/23%20JavaScript%20Deep%20Dive/JavaScript.Trainer.md)
 * Session 3
   * Recap and last questions
 
