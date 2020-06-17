@@ -24,12 +24,13 @@ Duration:
 
 Demo
 
-* Download the extension we made in Create a Report
-* Unpack extension
-* Open in VS Code, fix errors and other things
+* Create a new extension
+* Download and unpack the extension we made in Create a Report
+* Open in VS Code, copy the report and layout to your new extension
 * Explain the ForNAV Report AL files and the Layout files
-* Explain necessary dependencies 
+* Add and explain necessary dependencies 
 * Create new header line report
+* Connect the ForNAV Designer to the extension instead of the server. Explain
 * Save as AL File in the extension
 * Publish
 

@@ -79,3 +79,28 @@ Duration: 15 min
 
 Go over each exercise and discuss what happened at every point.
 
+### Questions
+What is the most efficient way to add a field to a ForNAV report?
+* Drag the field from the field list into the report
+* Drag an empty text box from the controls and add a source expression
+* Create a new column in the AL report and use it in the report
+
+What are ways of adding a table to your report
+* Drag a table control from the controls list, select multiple fields in the field list with the ctrl key added and drag them to a report
+* Drag a table control from the controls list, right click the section and click add a table
+* right click the section and click add a table
+
+Where can you find a list of all the used controls in your ForNAV report
+* The Report Explorer
+* The Field list
+* The Standard controls
+
+How would you add an image from the database
+* In a Picture control
+* In an Image control
+* In a Shape control
+
+What is the easiest way to align multiple controls to the left?
+* Using the Alignment control in the lint
+* Using the control properties
+* Carefully aligning them all by dragging them to the correct position
