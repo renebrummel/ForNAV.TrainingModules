@@ -24,7 +24,14 @@ Duration: 30 min
 
 Demo. For developers open a report from the ForNAV Designer. For No-Code open the Sales Template
 
+### Video Script
+Now we have edited our first report with the ForNAV Designer let's go have a more detailed look at the menus and options we have.
+
 **ForNAV Controls (Tool Box)**
+The first part of the ForNAV Designer we will look at is the Controls part. In here you will find all the controls you can place in your report.
+
+We will run though the controls one by one so you have a feel for what they do.
+
 * Label
 * Text Box
 * Picture Box
@@ -35,23 +42,30 @@ Demo. For developers open a report from the ForNAV Designer. For No-Code open th
 * Table
 
 **Lint**
+
+The next part of the ForNAV Designer we will discuss is the lint.
 * Explain options in Open/New/Save/Extensions
 * Mention Undo/Redo
 * Fonts
 * Alignment + layout -> Mostly self explanatory
 
 **Design Pane**
+
+The main working area of the ForNAV Designer is the Design pane. It represents a graphical representation of the report layout that allows you to design the report. It consists of these parts.
 * DataItems
 * Sections
 * Controls
 
 **Report Explorer**
-* Mention that this is where all the items in the report end up
+
+A very useful menu in the ForNAV Designer is the Report Explorer. The Report Explorer is an expandable list that contains all DataItems, Sections, and Controls of the report.
 * DataItems
 * Sections
 * Controls
 
 **Property Grid**
+
+We have already looked at the quick access properties of the controls. Every DataItem, Section, and Control of a ForNAV report has many more properties though. You can see them in the property grid.
 * Can Grow
 * Multiline
 * Format String
@@ -59,6 +73,8 @@ Demo. For developers open a report from the ForNAV Designer. For No-Code open th
 * Styles
 
 **Field List**
+
+We have seen before how we can add controls by selecting the desired control, dragging it into the report, and setting the source expression. There is an easier way of doing this though, that is through the Fields List. The field list contains an expandable list of all the DataItems connected to your report and their fields. 
 * CurrReport
 * DynamicsNavDataSet
 * DataItems
