@@ -106,6 +106,27 @@ BankAccount.SetRange('CurrencyCode', Header.CurrencyCode);
 BankAccount.First();
 ```
 
+**Convert decimals to US Format**
+
+Converts any number to the US Format in 2 decimals
+```javascript
+Number.prototype.usFormat = function(){
+  return this.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+}
+```
+
+Converts without adding decimal places
+```javascript
+Number.prototype.usFormat = function(){
+    return this.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+}
+```
+
+Call this function from any number:
+```javascript
+Headers.Amount.usFormat();
+```
+
 ### Business Central functions in JavaScript
 
 |JavaScript                     |AL                             |
