@@ -86,6 +86,7 @@ ParseComments(comments);
 
 **Get the bank account based on the currency**
 
+Add the Bank Account table to the records and get the record based on the currency.
 ```javascript
 switch(Header.CurrencyCode) {
   case Header.CurrencyCode = 'EUR':
@@ -99,6 +100,7 @@ switch(Header.CurrencyCode) {
 }
 ```
 
+Add the Bank Account table to the records and find the first bank account for that currency.
 ```javascript
 BankAccount.SetRange('CurrencyCode', Header.CurrencyCode);
 BankAccount.First();
