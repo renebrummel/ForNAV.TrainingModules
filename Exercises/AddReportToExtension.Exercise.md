@@ -14,6 +14,13 @@ Use the ForNAV Guide for [SaaS]() or [On Premise]()
 [Demo extension with examples](https://github.com/renebrummel/ForNAV.TrainingModules/tree/master/Modules/20%20Add%20Reports%20To%20An%20Extension/AddReportsToExtensionDemo)
 <!-- ToDO -> edit links -->
 
+<!-- ### Saving reports to an extension
+
+I have changed the logic in the designer so that if the target is internal or onprem then it will always set the compatibility to on-prem.
+
+If the target is cloud or extension, it will look at the launch.json configurations. -->
+
+
 ### Add the assembly probing paths
 
 In order to use dll files in your extension you need to tell Visual Studio Code where to find the assemblyProbingPaths. To do this you need to add these lines to the settings.json (in VS COde type Ctrl + Shift + P > Open Settings (JSON)).

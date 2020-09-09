@@ -84,6 +84,26 @@ Add a new DataItem, set the source table as Integer and set MaxIteration on 1. A
 ParseComments(comments);
 ```
 
+**Get the bank account based on the currency**
+
+```javascript
+switch(Header.CurrencyCode) {
+  case Header.CurrencyCode = 'EUR':
+    BankAccount.Get('EURBANKNO');
+    break;
+  case Header.CurrencyCode = 'USD':
+    BankAccount.Get('USDBANKNO');
+    break;
+  default:
+    BankAccount.Get('DEFAULTBANKNO');
+}
+```
+
+```javascript
+BankAccount.SetRange('CurrencyCode', Header.CurrencyCode);
+BankAccount.First();
+```
+
 ### Business Central functions in JavaScript
 
 |JavaScript                     |AL                             |
@@ -96,6 +116,10 @@ ParseComments(comments);
 |First();                       |FindFirst;                     |
 |SetFilter(‘Name’, ‘Mark’);     |SetFilter(Name, ‘Mark’);       |
 |SetRange(‘Name’, ‘Mark’);      |SetRange(Name, ‘Mark’);        |
+|GetCaption()                   ||
+|GetOptionValue(string ExternalFieldName)||
+|GetFilter(string ExternalFieldName)||
+|GetFilters()||
 |<br>
 |Case Sensitive                 |Not case sensitive             |
 |Parentheses mandatory          |Parentheses somewhat mandatory |

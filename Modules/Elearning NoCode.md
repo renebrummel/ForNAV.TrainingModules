@@ -8,6 +8,7 @@ The No-Code track consists of two three hour online sessions and a one hour ques
 * Edit your first report
 * Designer deep dive
 * Custom report layouts
+* ^-done-^
 * Templates
 * Multilanguage
 * ForNAV Language module

@@ -49,13 +49,13 @@ Duration:
 
 Look back on adding the field. What did the students experience?
 
-### Questions
+### Questions (* marks the correct answer)
 How do you preview a change to a ForNAV Report?
-* You select preview from the ForNAV Designer
+* *You select preview from the ForNAV Designer
 * You save the report and run it from Business Central
 * You generate a preview file from the ForNAV Designer
 
 What happens when you save your changes from the ForNAV Designer?
-* ForNAV will create a Custom Report Layout and enable it
+* *ForNAV will create a Custom Report Layout and enable it
 * ForNAV will create a new extension with your changes
 * ForNAV will save the changes in the Customizable Report Pack extension

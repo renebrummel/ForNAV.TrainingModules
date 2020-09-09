@@ -2,8 +2,6 @@ OBJECT Table 88051 100 Top Customer Overview Args
 {
   OBJECT-PROPERTIES
   {
-    Date=27-03-19;
-    Time=07:54:20;
     Modified=Yes;
     Version List=TRN1.0.0;
   }

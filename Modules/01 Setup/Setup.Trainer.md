@@ -105,24 +105,24 @@ Duration: 10 min
 
 In the first meeting ask everyone if they managed to setup ForNAV correctly. Determine what went right and what did not.
 
-### Questions
+### Questions (* marks the correct answer)
 Why do you need to set up the connection in the ForNAV Designer?
-* To get the table and field information from Business Central and to be able to load and save extensions and layouts directly to Business Central
+* *To get the table and field information from Business Central and to be able to load and save extensions and layouts directly to Business Central
 * To spy on your clients
 * To load data directly from Business Central into the report layouts
 
 Which ports need to be open in your On Premise server?
-* SOAP, ODATA, API, and Developer
+* *SOAP, ODATA, API, and Developer
 * Nothing
 * Developer, Client Services, SOAP
 
 What is the correct installation order for ForNAV On Premise?
-* ForNAV Designer, ForNAV dll on the service tier, ForNAV Customizable Report Pack
+* *ForNAV Designer, ForNAV dll on the service tier, ForNAV Customizable Report Pack
 * No specific order of installation
 * ForNAV Customizable Report Pack, ForNAV Designer, ForNAV dll on the service tier
 
 What is the correct installation order for ForNAV SaaS?
-* No specific order of installation
+* *No specific order of installation
 * ForNAV Designer, ForNAV dll on the service tier, ForNAV Customizable Report Pack
 * ForNAV Customizable Report Pack, ForNAV Designer, ForNAV dll on the service tier
 <!-- Add questions -->
